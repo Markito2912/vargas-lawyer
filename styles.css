@@ -678,14 +678,7 @@ section {
 }
 
 .team-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(15, 20, 25, 0.9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity var(--transition-base);
+    display: none !important;
 }
 
 .team-card:hover .team-overlay {
