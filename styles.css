@@ -1385,12 +1385,10 @@ section {
     }
 
     .hero-title {
-        font-size: 2.25rem;
-        line-height: 1.2;
-    }
-
-    .hero-subtitle {
-        font-size: 0.9375rem;
+        font-size: 3rem;
+        line-height: 1.1;
+        margin-bottom: var(--spacing-md);
+        letter-spacing: -0.02em;
     }
 
     .hero-badge {
@@ -1610,16 +1608,20 @@ section {
 
 @media (max-width: 480px) {
     .hero-title {
-        font-size: 1.5rem;
+        font-size: 2.75rem;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+    }
+
+    .hero-subtitle {
+        font-size: 1.125rem;
+        line-height: 1.5;
     }
 
     .hero-cta .btn {
-        font-size: 0.9375rem;
-        padding: var(--spacing-sm) var(--spacing-lg);
-    }
-
-    .hero-cta .btn span {
-        font-size: 0.9375rem;
+        font-size: 1rem;
+        padding: 1rem var(--spacing-lg);
+        width: 100%;
     }
 
     .service-title,
