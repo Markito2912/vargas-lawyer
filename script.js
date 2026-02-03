@@ -268,6 +268,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+/*
     // Show modal on mouse leave (Desktop)
     document.addEventListener('mouseleave', function(e) {
         if (e.clientY < 0 && !modalShown) {
@@ -281,6 +282,7 @@ document.addEventListener('DOMContentLoaded', () => {
             showExitModal();
         }
     }, 30000);
+*/
 
     // Close modal actions
     if (closeModal) {
