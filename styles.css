@@ -1385,10 +1385,11 @@ section {
     }
 
     .hero-title {
-        font-size: 3rem;
-        line-height: 1.1;
+        font-size: 3.5rem;
+        line-height: 1.05;
         margin-bottom: var(--spacing-md);
-        letter-spacing: -0.02em;
+        letter-spacing: -0.03em;
+        text-transform: capitalize;
     }
 
     .hero-badge {
