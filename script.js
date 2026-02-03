@@ -251,4 +251,51 @@ document.addEventListener('error', function (e) {
     }
 }, true);
 
+// Exit Intent Modal Logic
+document.addEventListener('DOMContentLoaded', () => {
+    // Only run if modal exists in the page
+    const exitModal = document.getElementById('exitModal');
+    if (!exitModal) return;
+
+    const closeModal = document.querySelector('.close-modal');
+    let modalShown = false;
+
+    function showExitModal() {
+        // Check if user already closed it in this session
+        if (!sessionStorage.getItem('exitModalClosed')) {
+            exitModal.style.display = 'block';
+            modalShown = true;
+        }
+    }
+
+    // Show modal on mouse leave (Desktop)
+    document.addEventListener('mouseleave', function(e) {
+        if (e.clientY < 0 && !modalShown) {
+            showExitModal();
+        }
+    });
+
+    // Show modal after 30s on mobile (if not shown)
+    setTimeout(() => {
+        if (!modalShown) {
+            showExitModal();
+        }
+    }, 30000);
+
+    // Close modal actions
+    if (closeModal) {
+        closeModal.onclick = function() {
+            exitModal.style.display = 'none';
+            sessionStorage.setItem('exitModalClosed', 'true');
+        }
+    }
+
+    window.onclick = function(event) {
+        if (event.target == exitModal) {
+            exitModal.style.display = 'none';
+            sessionStorage.setItem('exitModalClosed', 'true');
+        }
+    }
+});
+
 // LexElite website loaded
