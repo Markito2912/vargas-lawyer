@@ -1789,6 +1789,19 @@ section {
     line-height: 1.8;
 }
 
+/* Checklist Fix */
+.checklist-container {
+    background: #e9ecef !important;
+    color: #000000 !important;
+}
+
+.checklist-container h3,
+.checklist-container ul,
+.checklist-container li {
+    color: #000000 !important;
+    text-shadow: none !important;
+}
+
 /* ===================================
    Contact Map
    =================================== */
