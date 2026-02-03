@@ -1,0 +1,15 @@
+# Ignorar archivos de sistema y temporales
+.DS_Store
+Thumbs.db
+*.log
+temp_restore/
+
+# Ignorar temas y zips de WordPress (no necesarios para la web estática)
+*.zip
+lexelite-theme/
+vargas-lawyers-theme/
+GUIA-LOCAL-WORDPRESS.md
+INSTALACION-WORDPRESS.md
+instalar-tema-automatico.bat
+MANUAL-DE-USO.md
+PASO-CREAR-SITIO-LOCAL.md

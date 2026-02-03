@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Blog legal | Artículos sobre Derecho Civil, Societario, Constitucional y más en Ecuador. Guías prácticas y consejos legales de expertos.">
+    <meta name="keywords"
+        content="blog legal ecuador, artículos derecho civil, consejos legales santo domingo, guía legal ecuador">
+    <meta name="author" content="VARGAS LAWYERS S.A.S.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.vargaslawyer.com/blog.html" />
+    <title>Blog Legal | Artículos y Guías Jurídicas - VARGAS LAWYERS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="vargas-lawyers.html" class="logo">
+                <img src="vargas-logo.png" alt="VARGAS LAWYERS" class="logo-img" style="height: 50px; width: auto;">
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="vargas-lawyers.html#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="vargas-lawyers.html#equipo" class="nav-link">Equipo</a></li>
+                <li><a href="vargas-lawyers.html#metodologia" class="nav-link">Metodología</a></li>
+                <li><a href="vargas-lawyers.html#testimonios" class="nav-link">Testimonios</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="vargas-lawyers.html#contacto" class="nav-link cta-link">Contáctanos</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menú de navegación">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Blog Header -->
+    <section class="hero" style="padding: 120px 0 40px 0; min-height: auto;">
+        <div class="container">
+            <div class="section-header" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <span class="section-badge">Recursos Legales</span>
+                <h1 class="section-title">Blog Jurídico</h1>
+                <p class="section-subtitle">Artículos, guías prácticas y análisis legal para personas y empresas en
+                    Ecuador</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section style="padding: 20px 0 40px 0; background: rgba(62, 168, 244, 0.03);">
+        <div class="container">
+            <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; align-items: center;">
+                <span style="font-weight: 500; color: var(--color-text-light); margin-right: 8px;">Filtrar por
+                    área:</span>
+                <button class="filter-btn active" data-filter="all"
+                    style="padding: 8px 20px; border: 2px solid var(--color-primary); background: var(--color-primary); color: white; border-radius: 24px; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.3s ease;">
+                    Todos
+                </button>
+                <button class="filter-btn" data-filter="civil"
+                    style="padding: 8px 20px; border: 2px solid rgba(62, 168, 244, 0.3); background: transparent; color: var(--color-text); border-radius: 24px; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.3s ease;">
+                    Derecho Civil
+                </button>
+                <button class="filter-btn" data-filter="societario"
+                    style="padding: 8px 20px; border: 2px solid rgba(62, 168, 244, 0.3); background: transparent; color: var(--color-text); border-radius: 24px; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.3s ease;">
+                    Derecho Societario
+                </button>
+                <button class="filter-btn" data-filter="constitucional"
+                    style="padding: 8px 20px; border: 2px solid rgba(62, 168, 244, 0.3); background: transparent; color: var(--color-text); border-radius: 24px; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.3s ease;">
+                    Derecho Constitucional
+                </button>
+                <button class="filter-btn" data-filter="laboral"
+                    style="padding: 8px 20px; border: 2px solid rgba(62, 168, 244, 0.3); background: transparent; color: var(--color-text); border-radius: 24px; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.3s ease;">
+                    Derecho Laboral
+                </button>
+                <button class="filter-btn" data-filter="familia"
+                    style="padding: 8px 20px; border: 2px solid rgba(62, 168, 244, 0.3); background: transparent; color: var(--color-text); border-radius: 24px; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.3s ease;">
+                    Derecho de Familia
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Grid -->
+    <section class="services" style="padding-top: 40px;">
+        <div class="container">
+            <div class="services-grid" id="blogGrid">
+                <!-- Blog Post 1: Derecho Civil -->
+                <article class="service-card blog-card" data-aos="fade-up" data-category="civil">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M14 18V36H34V18" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M24 12L12 18H36L24 12Z" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M20 24H22M26 24H28M20 30H22M26 30H28" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Derecho Civil</span>
+                    <h3 class="service-title">Guía Completa: Conflictos Civiles en Santo Domingo</h3>
+                    <p class="service-description">
+                        Todo lo que necesitas saber sobre deudas, contratos incumplidos y obligaciones civiles.
+                        Procesos, documentos necesarios y estrategia legal efectiva.
+                    </p>
+                    <div style="margin: 16px 0; padding: 12px 0; border-top: 1px solid rgba(62, 168, 244, 0.1);">
+                        <p style="font-size: 14px; color: var(--color-text-light); margin: 0;">
+                            <strong>Por:</strong> Ab. Anthony Vargas (Socio Fundador) •
+                            <strong style="margin-left: 8px;">Actualizado:</strong> 21 enero 2026
+                        </p>
+                    </div>
+                    <a href="blog-derecho-civil-santo-domingo.html" class="service-link">
+                        Leer Artículo Completo
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- Placeholder for future articles -->
+                <div class="service-card blog-card" data-aos="fade-up" data-aos-delay="100" style="opacity: 0.6;"
+                    data-category="societario">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path
+                                d="M24 28C28.4183 28 32 24.4183 32 20C32 15.5817 28.4183 12 24 12C19.5817 12 16 15.5817 16 20C16 24.4183 19.5817 28 24 28Z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M12 36C12 32.6863 14.6863 30 18 30H30C33.3137 30 36 32.6863 36 36V40H12V36Z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Próximamente</span>
+                    <h3 class="service-title">Constitución de Empresas en Ecuador</h3>
+                    <p class="service-description">
+                        Guía paso a paso para constituir tu compañía en Ecuador. Requisitos, costos y tiempos. (Artículo
+                        en preparación)
+                    </p>
+                </div>
+
+                <div class="service-card blog-card" data-aos="fade-up" data-aos-delay="200" style="opacity: 0.6;"
+                    data-category="constitucional">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 10L18 14V22C18 28 21 32 24 34C27 32 30 28 30 22V14L24 10Z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M21 24L23 26L27 22" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Próximamente</span>
+                    <h3 class="service-title">Garantías Constitucionales: Cuándo y Cómo</h3>
+                    <p class="service-description">
+                        Protege tus derechos constitucionales. Casos de aplicación y proceso legal. (Artículo en
+                        preparación)
+                    </p>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div
+                style="text-align: center; margin-top: 60px; padding: 40px; background: linear-gradient(135deg, rgba(62, 168, 244, 0.1) 0%, rgba(62, 168, 244, 0.05) 100%); border-radius: 16px;">
+                <h3 style="font-size: 28px; color: var(--color-text); margin-bottom: 16px;">¿Necesita Asesoría Legal
+                    Personalizada?</h3>
+                <p style="color: var(--color-text-light); margin-bottom: 24px;">Los artículos informativos son útiles,
+                    pero cada caso es único. Contáctenos para un diagnóstico legal honesto de su situación.</p>
+                <a href="https://wa.me/593985899525" class="btn btn-primary" target="_blank">
+                    <span>Consulta por WhatsApp</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-column">
+                <img src="vargas-logo.png" alt="VARGAS LAWYERS" class="footer-logo"
+                    style="height: 60px; width: auto; margin-bottom: 20px;">
+                <p class="footer-description">
+                    Firma ecuatoriana especializada en soluciones legales efectivas con transparencia,
+                    firmeza jurídica y comunicación constante.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-title">Enlaces</h4>
+                <ul class="footer-links">
+                    <li><a href="vargas-lawyers.html#servicios">Servicios</a></li>
+                    <li><a href="vargas-lawyers.html#equipo">Equipo</a></li>
+                    <li><a href="vargas-lawyers.html#metodologia">Metodología</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="vargas-lawyers.html#contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-title">Información Legal</h4>
+                <p class="footer-legal-info">
+                    <strong>RUC:</strong> 2390059291001<br>
+                    <strong>Razón Social:</strong> VARGAS LAWYERS S.A.S.
+                </p>
+                <p class="footer-disclaimer" style="font-size: 12px; margin-top: 12px; opacity: 0.7;">
+                    La información publicada en este sitio web no constituye asesoría legal personalizada.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-title">Horario</h4>
+                <p>Lunes - Viernes<br>09:00 - 18:00</p>
+                <p style="margin-top: 12px;">
+                    <strong>WhatsApp:</strong><br>
+                    +593 98 589 9525
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 VARGAS LAWYERS S.A.S. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/593985899525" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="white">
+            <path
+                d="M23.295 18.509c-.406-.203-2.344-1.156-2.707-1.289-.364-.133-.628-.203-.893.203-.264.406-1.022 1.289-1.253 1.555-.23.265-.46.298-.866.095-.406-.203-1.674-.617-3.187-1.967-1.178-1.051-1.973-2.348-2.204-2.754-.23-.406-.024-.625.173-.828.179-.178.406-.463.609-.695.203-.231.264-.396.396-.661.133-.265.066-.497-.033-.695-.1-.203-.893-2.15-1.221-2.944-.323-.772-.65-.667-.893-.68-.23-.011-.494-.013-.76-.013-.264 0-.693.099-1.055.496-.364.406-1.387 1.355-1.387 3.303 0 1.949 1.42 3.834 1.62 4.098.203.265 2.796 4.267 6.77 5.985.947.409 1.686.653 2.26.835.95.302 1.814.26 2.495.157.762-.114 2.344-.959 2.675-1.885.33-.926.33-1.719.23-1.885-.099-.165-.363-.265-.76-.463M16.067 28.98h-.005a13.165 13.165 0 01-6.71-1.837l-.481-.286-4.988 1.309 1.331-4.865-.314-.499a13.22 13.22 0 01-2.014-7.013C3.001 8.447 8.448 3 15.79 3c3.56 0 6.906 1.372 9.418 3.867a13.19 13.19 0 013.774 9.399c-.004 7.342-5.451 13.714-12.915 13.714M27.403 4.597A15.913 15.913 0 0016.068 0C7.326 0 .213 7.113.21 15.855c0 2.795.73 5.523 2.12 7.928L0 32l8.424-2.211a15.926 15.926 0 007.62 1.943h.007C24.787 31.732 31.9 24.619 31.903 15.877c.001-4.258-1.642-8.254-4.5-11.28" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+
+    <!-- Blog Filter Script -->
+    <script>
+        // Blog filter functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const blogCards = document.querySelectorAll('.blog-card');
+        let isFiltering = false;
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                if (isFiltering) return;
+                isFiltering = true;
+                setTimeout(() => isFiltering = false, 300); // 300ms debounce
+
+                const filterValue = this.getAttribute('data-filter');
+
+                // Update active button
+                filterButtons.forEach(btn => {
+                    btn.classList.remove('active');
+                    btn.style.background = 'transparent';
+                    btn.style.color = 'var(--color-text)';
+                    btn.style.border = '2px solid rgba(62, 168, 244, 0.3)';
+                    btn.setAttribute('aria-pressed', 'false');
+                });
+
+                this.classList.add('active');
+                this.style.background = 'var(--color-primary)';
+                this.style.color = 'white';
+                this.style.border = '2px solid var(--color-primary)';
+                this.setAttribute('aria-pressed', 'true');
+
+                // Filter cards
+                blogCards.forEach(card => {
+                    const cardCategory = card.getAttribute('data-category');
+
+                    if (filterValue === 'all' || cardCategory === filterValue) {
+                        card.style.display = 'block';
+                        card.style.animation = 'fadeIn 0.5s ease';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
