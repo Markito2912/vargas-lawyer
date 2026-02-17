@@ -4,4 +4,4 @@ Disallow: /private/
 Disallow: /tmp/
 Disallow: /admin/
 
-Sitemap: https://www.vargaslawyer.com/sitemap.xml
+Sitemap: https://vargaslawyer.com/sitemap.xml

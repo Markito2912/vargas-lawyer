@@ -13,3 +13,5 @@ INSTALACION-WORDPRESS.md
 instalar-tema-automatico.bat
 MANUAL-DE-USO.md
 PASO-CREAR-SITIO-LOCAL.md
+.vercel
+.env*.local

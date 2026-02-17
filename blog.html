@@ -2,6 +2,25 @@
 <html lang="es">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SLC525VW38"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-SLC525VW38');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PXTNX559');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
@@ -18,22 +37,35 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles-v2.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#3ea8f4">
+    <meta name="msapplication-TileColor" content="#0f1419">
+    <meta name="theme-color" content="#0f1419">
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXTNX559" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- Navigation -->
-    <nav class="navbar" id="navbar">
+    <nav class="navbar">
         <div class="container nav-container">
-            <a href="vargas-lawyers.html" class="logo">
-                <img src="vargas-logo.png" alt="VARGAS LAWYERS" class="logo-img" style="height: 50px; width: auto;">
+            <a href="index.html" class="logo">
+                <img src="vargas-logo-full.png" alt="VARGAS LAWYERS" style="height: 50px; width: auto;">
             </a>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="vargas-lawyers.html#servicios" class="nav-link">Servicios</a></li>
-                <li><a href="vargas-lawyers.html#equipo" class="nav-link">Equipo</a></li>
-                <li><a href="vargas-lawyers.html#metodologia" class="nav-link">Metodología</a></li>
-                <li><a href="vargas-lawyers.html#testimonios" class="nav-link">Testimonios</a></li>
+                <li><a href="index.html#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="index.html#equipo" class="nav-link">Equipo</a></li>
+                <li><a href="index.html#metodologia" class="nav-link">Metodología</a></li>
+                <li><a href="index.html#testimonios" class="nav-link">Testimonios</a></li>
                 <li><a href="blog.html" class="nav-link">Blog</a></li>
-                <li><a href="vargas-lawyers.html#contacto" class="nav-link cta-link">Contáctanos</a></li>
+                <li><a href="index.html#contacto" class="nav-link cta-link">Contáctanos</a></li>
             </ul>
             <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menú de navegación">
                 <span></span>
@@ -93,28 +125,28 @@
     <section class="services" style="padding-top: 40px;">
         <div class="container">
             <div class="services-grid" id="blogGrid">
-                <!-- Blog Post 1: Derecho Civil -->
-                <article class="service-card blog-card" data-aos="fade-up" data-category="civil">
+
+                <!-- ========== BLOGS YA PUBLICADOS (ANTIGUOS) ========== -->
+
+                <!-- BLOG ANTIGUO 1: Derecho Civil Santo Domingo -->
+                <article class="service-card blog-card" data-aos="fade-up" data-category="civil"
+                    data-publish-date="2026-01-15">
                     <div class="service-icon">
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                            <path d="M14 18V36H34V18" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path d="M24 12L12 18H36L24 12Z" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M20 24H22M26 24H28M20 30H22M26 30H28" stroke="currentColor" stroke-width="2"
+                            <path d="M12 8h24v32H12z" stroke="currentColor" stroke-width="2" />
+                            <path d="M20 16h8M20 24h8M20 32h8" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" />
                         </svg>
                     </div>
                     <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Derecho Civil</span>
                     <h3 class="service-title">Guía Completa: Conflictos Civiles en Santo Domingo</h3>
                     <p class="service-description">
-                        Todo lo que necesitas saber sobre deudas, contratos incumplidos y obligaciones civiles.
-                        Procesos, documentos necesarios y estrategia legal efectiva.
+                        Todo lo que necesitas saber sobre demandas laborales más costosas, contratos incumplidos y
+                        obligaciones civiles.
                     </p>
                     <div style="margin: 16px 0; padding: 12px 0; border-top: 1px solid rgba(62, 168, 244, 0.1);">
                         <p style="font-size: 14px; color: var(--color-text-light); margin: 0;">
-                            <strong>Por:</strong> Ab. Anthony Vargas (Socio Fundador) •
-                            <strong style="margin-left: 8px;">Actualizado:</strong> 21 enero 2026
+                            <strong>Por:</strong> Ab. Anthony Vargas • <strong>Publicado:</strong> 15 ene 2026
                         </p>
                     </div>
                     <a href="blog-derecho-civil-santo-domingo.html" class="service-link">
@@ -126,43 +158,367 @@
                     </a>
                 </article>
 
-                <!-- Placeholder for future articles -->
-                <div class="service-card blog-card" data-aos="fade-up" data-aos-delay="100" style="opacity: 0.6;"
-                    data-category="societario">
+                <!-- BLOG ANTIGUO 2: PYMES Blindaje Legal -->
+                <article class="service-card blog-card" data-aos="fade-up" data-category="laboral"
+                    data-publish-date="2026-01-22">
                     <div class="service-icon">
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                            <path
-                                d="M24 28C28.4183 28 32 24.4183 32 20C32 15.5817 28.4183 12 24 12C19.5817 12 16 15.5817 16 20C16 24.4183 19.5817 28 24 28Z"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M12 36C12 32.6863 14.6863 30 18 30H30C33.3137 30 36 32.6863 36 36V40H12V36Z"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M24 4L8 12V22C8 32 24 44 24 44C24 44 40 32 40 22V12L24 4Z" stroke="currentColor"
+                                stroke-width="2" />
                         </svg>
                     </div>
-                    <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Próximamente</span>
-                    <h3 class="service-title">Constitución de Empresas en Ecuador</h3>
+                    <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Empresas</span>
+                    <h3 class="service-title">Blindaje para PYMES: Los 5 errores legales que más multas causan</h3>
                     <p class="service-description">
-                        Guía paso a paso para constituir tu compañía en Ecuador. Requisitos, costos y tiempos. (Artículo
-                        en preparación)
+                        Errores costosos en gestión laboral y estrategia de blindaje jurídico para proteger tu empresa.
                     </p>
-                </div>
+                    <div style="margin: 16px 0; padding: 12px 0; border-top: 1px solid rgba(62, 168, 244, 0.1);">
+                        <p style="font-size: 14px; color: var(--color-text-light); margin: 0;">
+                            <strong>Por:</strong> Ab. Anthony Vargas • <strong>Publicado:</strong> 22 ene 2026
+                        </p>
+                    </div>
+                    <a href="blog-pymes-blindaje-legal.html" class="service-link">
+                        Leer Artículo Completo
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </article>
 
-                <div class="service-card blog-card" data-aos="fade-up" data-aos-delay="200" style="opacity: 0.6;"
-                    data-category="constitucional">
+                <!-- BLOG ANTIGUO 3: Herencias y Testamentos -->
+                <article class="service-card blog-card" data-aos="fade-up" data-category="familia"
+                    data-publish-date="2026-01-29">
                     <div class="service-icon">
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                            <path d="M24 10L18 14V22C18 28 21 32 24 34C27 32 30 28 30 22V14L24 10Z"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M21 24L23 26L27 22" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            <path d="M16 8h16l8 8v24H8V16l8-8z" stroke="currentColor" stroke-width="2" />
+                            <path d="M20 20h8M20 28h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Patrimonio</span>
+                    <h3 class="service-title">Herencias en Ecuador: Guía práctica sobre testamentos</h3>
+                    <p class="service-description">
+                        Todo sobre testamentos, herencias y cómo proteger el patrimonio familiar en Ecuador.
+                    </p>
+                    <div style="margin: 16px 0; padding: 12px 0; border-top: 1px solid rgba(62, 168, 244, 0.1);">
+                        <p style="font-size: 14px; color: var(--color-text-light); margin: 0;">
+                            <strong>Por:</strong> Ab. Anthony Vargas • <strong>Publicado:</strong> 29 ene 2026
+                        </p>
+                    </div>
+                    <a href="blog-herencias-testamentos-ecuador.html" class="service-link">
+                        Leer Artículo Completo
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- ========== BLOGS NUEVOS PROGRAMADOS ========== -->
+
+                <!-- ARTÍCULO 1: S.A.S. (Lunes 3 feb 2026 - YA PUBLICADO) -->
+                <article class="service-card blog-card" data-aos="fade-up" data-category="societario"
+                    data-publish-date="2026-02-03">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect x="8" y="8" width="32" height="32" rx="4" stroke="currentColor" stroke-width="2" />
+                            <path d="M16 20H32M16 28H32" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Especial
+                        Empresas</span>
+                    <h3 class="service-title">Constitución de Compañías S.A.S.: Guía definitiva para emprender en
+                        Ecuador</h3>
+                    <p class="service-description">
+                        Todo lo que necesitas saber para constituir una S.A.S.: requisitos, costos, ventajas y proceso
+                        paso a paso.
+                    </p>
+                    <div style="margin: 16px 0; padding: 12px 0; border-top: 1px solid rgba(62, 168, 244, 0.1);">
+                        <p style="font-size: 14px; color: var(--color-text-light); margin: 0;">
+                            <strong>Por:</strong> Ab. Anthony Vargas • <strong>Publicado:</strong> 3 feb 2026
+                        </p>
+                    </div>
+                    <a href="blog-sas-constitucion-ecuador.html" class="service-link">
+                        Leer Artículo Completo
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- ARTÍCULO 2: Letra de Cambio (Jueves 6 feb 2026 - YA PUBLICADO) -->
+                <article class="service-card blog-card" data-aos="fade-up" data-category="civil"
+                    data-publish-date="2026-02-06">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect x="8" y="12" width="32" height="24" rx="2" stroke="currentColor" stroke-width="2" />
+                            <path d="M16 20H32M16 28H24" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Derecho Civil</span>
+                    <h3 class="service-title">¿Te deben dinero? Cómo cobrar una letra de cambio o pagaré legalmente</h3>
+                    <p class="service-description">
+                        Proceso legal exacto, plazos, costos del juicio ejecutivo y estrategias efectivas para recuperar
+                        tu dinero.
+                    </p>
+                    <div style="margin: 16px 0; padding: 12px 0; border-top: 1px solid rgba(62, 168, 244, 0.1);">
+                        <p style="font-size: 14px; color: var(--color-text-light); margin: 0;">
+                            <strong>Por:</strong> Ab. Anthony Vargas • <strong>Publicado:</strong> 6 feb 2026
+                        </p>
+                    </div>
+                    <a href="blog-cobro-letra-cambio-pagare.html" class="service-link">
+                        Leer Artículo Completo
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- ARTÍCULO 3: Despido Intempestivo (Lunes 10 feb 2026 - SE PUBLICA HOY) -->
+                <article class="service-card blog-card" data-aos="fade-up" data-category="laboral"
+                    data-publish-date="2026-02-10">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 4V44M12 16L24 4L36 16" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Derecho
+                        Laboral</span>
+                    <h3 class="service-title">Despido intempestivo vs. Desahucio: ¿Cuánto te corresponde de liquidación
+                        realmente?</h3>
+                    <p class="service-description">
+                        Diferencias clave, cálculo exacto de liquidación, rubros que te corresponden y cuándo demandar.
+                    </p>
+                    <div style="margin: 16px 0; padding: 12px 0; border-top: 1px solid rgba(62, 168, 244, 0.1);">
+                        <p style="font-size: 14px; color: #e2e8f0; margin: 0;">
+                            <strong>Por:</strong> Ab. Anthony Vargas • <strong>Publicado:</strong> 10 feb 2026
+                        </p>
+                    </div>
+                    <a href="blog-despido-intempestivo-liquidacion.html" class="service-link">
+                        Leer Artículo Completo
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- ARTÍCULO 4: Posesión Efectiva (Jueves 12 feb 2026 - HOY) -->
+                <article class="service-card blog-card" data-aos="fade-up" data-category="familia"
+                    data-publish-date="2026-02-12">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M12 40C12 35 15 32 20 32C25 32 28 35 28 40" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                            <circle cx="20" cy="18" r="6" stroke="currentColor" stroke-width="2" />
+                            <path d="M30 12L40 22L30 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" />
                         </svg>
                     </div>
-                    <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Próximamente</span>
-                    <h3 class="service-title">Garantías Constitucionales: Cuándo y Cómo</h3>
+                    <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Patrimonio</span>
+                    <h3 class="service-title">Herencias sin testamento: Pasos para hacer la Posesión Efectiva</h3>
                     <p class="service-description">
-                        Protege tus derechos constitucionales. Casos de aplicación y proceso legal. (Artículo en
-                        preparación)
+                        Proceso completo, documentos necesarios, plazos y costos para reclamar una herencia sin
+                        testamento.
                     </p>
-                </div>
+                    <div style="margin: 16px 0; padding: 12px 0; border-top: 1px solid rgba(62, 168, 244, 0.1);">
+                        <p style="font-size: 14px; color: var(--color-text-light); margin: 0;">
+                            <strong>Por:</strong> Ab. Anthony Vargas • <strong>Publicado:</strong> 12 feb 2026
+                        </p>
+                    </div>
+                    <a href="blog-herencias-posesion-efectiva.html" class="service-link">
+                        Leer Artículo Completo
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- ARTÍCULO 5: Blindaje PYMES (Lunes 16 feb 2026) -->
+                <article class="service-card blog-card" data-aos="fade-up" data-category="laboral"
+                    data-publish-date="2026-02-16">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 4V44" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            <path d="M24 12L32 20L24 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <rect x="8" y="8" width="32" height="32" rx="4" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Empresas</span>
+                    <h3 class="service-title">Blindaje para PYMES: Los 5 errores legales que más multas causan en el
+                        Ministerio del Trabajo</h3>
+                    <p class="service-description">
+                        Errores costosos en gestión laboral y estrategia de blindaje jurídico para proteger tu empresa.
+                    </p>
+                    <div style="margin: 16px 0; padding: 12px 0; border-top: 1px solid rgba(62, 168, 244, 0.1);">
+                        <p style="font-size: 14px; color: var(--color-text-light); margin: 0;">
+                            <strong>Por:</strong> Ab. Anthony Vargas • <strong>Publicado:</strong> 16 feb 2026
+                        </p>
+                    </div>
+                    <a href="blog-pymes-blindaje-legal.html" class="service-link">
+                        Leer Artículo Completo
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- ARTÍCULO 6: Inquilinato (Jueves 19 feb 2026) -->
+                <article class="service-card blog-card" data-aos="fade-up" data-category="civil"
+                    data-publish-date="2026-02-19">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M8 24L24 8L40 24M12 20V40H36V20" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Vivienda</span>
+                    <h3 class="service-title">Inquilinato: ¿Cómo sacar legalmente a un arrendatario que no paga?</h3>
+                    <p class="service-description">
+                        Proceso de desalojo paso a paso, documentos necesarios, plazos y estrategias legales efectivas.
+                    </p>
+                    <div style="margin: 16px 0; padding: 12px 0; border-top: 1px solid rgba(62, 168, 244, 0.1);">
+                        <p style="font-size: 14px; color: var(--color-text-light); margin: 0;">
+                            <strong>Por:</strong> Ab. Anthony Vargas • <strong>Publicado:</strong> 19 feb 2026
+                        </p>
+                    </div>
+                    <a href="blog-inquilinato-desalojo.html" class="service-link">
+                        Leer Artículo Completo
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- ARTÍCULO 7: Acción de Protección (Lunes 23 feb 2026) -->
+                <article class="service-card blog-card" data-aos="fade-up" data-category="constitucional"
+                    data-publish-date="2026-02-23">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 4L8 12V22C8 32 24 44 24 44C24 44 40 32 40 22V12L24 4Z" stroke="currentColor"
+                                stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Derecho
+                        Constitucional</span>
+                    <h3 class="service-title">Derecho Constitucional: Qué es una Acción de Protección y cuándo puede
+                        salvar tu negocio</h3>
+                    <p class="service-description">
+                        Cuándo usar esta herramienta constitucional, proceso, plazos y casos de éxito en defensa
+                        empresarial.
+                    </p>
+                    <div style="margin: 16px 0; padding: 12px 0; border-top: 1px solid rgba(62, 168, 244, 0.1);">
+                        <p style="font-size: 14px; color: var(--color-text-light); margin: 0;">
+                            <strong>Por:</strong> Ab. Anthony Vargas • <strong>Publicado:</strong> 23 feb 2026
+                        </p>
+                    </div>
+                    <a href="blog-accion-proteccion-constitucional.html" class="service-link">
+                        Leer Artículo Completo
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- ARTÍCULO 8: Registro de Marca (Jueves 26 feb 2026) -->
+                <article class="service-card blog-card" data-aos="fade-up" data-category="societario"
+                    data-publish-date="2026-02-26">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2" />
+                            <path d="M24 12V24L32 28" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Propiedad</span>
+                    <h3 class="service-title">Cómo registrar tu marca en el SENADI y por qué es peligroso no hacerlo
+                    </h3>
+                    <p class="service-description">
+                        Proceso completo de registro de marca, costos, plazos y riesgos de no proteger tu propiedad
+                        intelectual.
+                    </p>
+                    <div style="margin: 16px 0; padding: 12px 0; border-top: 1px solid rgba(62, 168, 244, 0.1);">
+                        <p style="font-size: 14px; color: var(--color-text-light); margin: 0;">
+                            <strong>Por:</strong> Ab. Anthony Vargas • <strong>Publicado:</strong> 26 feb 2026
+                        </p>
+                    </div>
+                    <a href="blog-registro-marca-senadi.html" class="service-link">
+                        Leer Artículo Completo
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- ARTÍCULO 9: Divorcio Notarial (Lunes 2 mar 2026) -->
+                <article class="service-card blog-card" data-aos="fade-up" data-category="familia"
+                    data-publish-date="2026-03-02">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M16 24C16 24 20 28 24 28C28 28 32 24 32 24M12 12L24 4L36 12" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Derecho de
+                        Familia</span>
+                    <h3 class="service-title">Divorcio por mutuo acuerdo en Notaría: Requisitos, tiempos y costos</h3>
+                    <p class="service-description">
+                        Proceso completo de divorcio notarial, documentos necesarios, plazos y costos reales en Ecuador.
+                    </p>
+                    <div style="margin: 16px 0; padding: 12px 0; border-top: 1px solid rgba(62, 168, 244, 0.1);">
+                        <p style="font-size: 14px; color: var(--color-text-light); margin: 0;">
+                            <strong>Por:</strong> Ab. Anthony Vargas • <strong>Publicado:</strong> 2 mar 2026
+                        </p>
+                    </div>
+                    <a href="blog-divorcio-notarial-ecuador.html" class="service-link">
+                        Leer Artículo Completo
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- ARTÍCULO 10: Responsabilidad Médica (Jueves 5 mar 2026) -->
+                <article class="service-card blog-card" data-aos="fade-up" data-category="civil"
+                    data-publish-date="2026-03-05">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 8V40M12 24H36" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <span class="section-badge" style="margin-bottom: 12px; display: inline-block;">Responsabilidad
+                        Civil</span>
+                    <h3 class="service-title">Responsabilidad Médica: ¿Qué hacer ante un caso de negligencia en Ecuador?
+                    </h3>
+                    <p class="service-description">
+                        Proceso legal, pruebas necesarias, plazos y estrategias para casos de negligencia médica.
+                    </p>
+                    <div style="margin: 16px 0; padding: 12px 0; border-top: 1px solid rgba(62, 168, 244, 0.1);">
+                        <p style="font-size: 14px; color: #e2e8f0; margin: 0;">
+                            <strong>Por:</strong> Ab. Anthony Vargas • <strong>Publicado:</strong> 5 mar 2026
+                        </p>
+                    </div>
+                    <a href="blog-responsabilidad-medica-ecuador.html" class="service-link">
+                        Leer Artículo Completo
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </article>
+
             </div>
 
             <!-- CTA Section -->
@@ -187,7 +543,7 @@
     <footer class="footer">
         <div class="container footer-container">
             <div class="footer-column">
-                <img src="vargas-logo.png" alt="VARGAS LAWYERS" class="footer-logo"
+                <img src="vargas-logo-full.png" alt="VARGAS LAWYERS" class="footer-logo"
                     style="height: 60px; width: auto; margin-bottom: 20px;">
                 <p class="footer-description">
                     Firma ecuatoriana especializada en soluciones legales efectivas con transparencia,
@@ -198,11 +554,11 @@
             <div class="footer-column">
                 <h4 class="footer-title">Enlaces</h4>
                 <ul class="footer-links">
-                    <li><a href="vargas-lawyers.html#servicios">Servicios</a></li>
-                    <li><a href="vargas-lawyers.html#equipo">Equipo</a></li>
-                    <li><a href="vargas-lawyers.html#metodologia">Metodología</a></li>
+                    <li><a href="index.html#servicios">Servicios</a></li>
+                    <li><a href="index.html#equipo">Equipo</a></li>
+                    <li><a href="index.html#metodologia">Metodología</a></li>
                     <li><a href="blog.html">Blog</a></li>
-                    <li><a href="vargas-lawyers.html#contacto">Contacto</a></li>
+                    <li><a href="index.html#contacto">Contacto</a></li>
                 </ul>
             </div>
 
@@ -255,7 +611,7 @@
             button.addEventListener('click', function () {
                 if (isFiltering) return;
                 isFiltering = true;
-                setTimeout(() => isFiltering = false, 300); // 300ms debounce
+                setTimeout(() => isFiltering = false, 300);
 
                 const filterValue = this.getAttribute('data-filter');
 
@@ -277,6 +633,13 @@
                 // Filter cards
                 blogCards.forEach(card => {
                     const cardCategory = card.getAttribute('data-category');
+                    const isScheduled = card.getAttribute('data-scheduled') === 'true';
+
+                    // No mostrar artículos programados para el futuro
+                    if (isScheduled) {
+                        card.style.display = 'none';
+                        return;
+                    }
 
                     if (filterValue === 'all' || cardCategory === filterValue) {
                         card.style.display = 'block';
@@ -286,6 +649,42 @@
                     }
                 });
             });
+        });
+
+        // Sistema de publicación programada
+        document.addEventListener('DOMContentLoaded', function () {
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+
+            console.log('=== SISTEMA DE PUBLICACIÓN PROGRAMADA ===');
+            console.log('Fecha actual:', today.toISOString().split('T')[0]);
+
+            const blogCards = document.querySelectorAll('.blog-card[data-publish-date]');
+            let visibleCount = 0;
+            let hiddenCount = 0;
+
+            blogCards.forEach(card => {
+                const publishDateStr = card.getAttribute('data-publish-date');
+                if (publishDateStr) {
+                    const publishDate = new Date(publishDateStr);
+                    publishDate.setHours(0, 0, 0, 0);
+
+                    const title = card.querySelector('.service-title')?.textContent.substring(0, 50) || 'Sin título';
+
+                    if (publishDate > today) {
+                        card.style.display = 'none';
+                        card.setAttribute('data-scheduled', 'true');
+                        hiddenCount++;
+                        console.log(`❌ OCULTO: "${title}" - Fecha: ${publishDateStr}`);
+                    } else {
+                        visibleCount++;
+                        console.log(`✅ VISIBLE: "${title}" - Fecha: ${publishDateStr}`);
+                    }
+                }
+            });
+
+            console.log(`\nRESUMEN: ${visibleCount} visibles, ${hiddenCount} ocultos de ${blogCards.length} totales`);
+            console.log('=====================================');
         });
     </script>
 </body>
