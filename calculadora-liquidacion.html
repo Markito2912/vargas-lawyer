@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PXTNX559');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SLC525VW38"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-SLC525VW38');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Calculadora de Liquidación Laboral Ecuador 2026. Calcule su despido intempestivo, renuncia o desahucio gratis. Asesoría legal experta.">
+    <meta name="keywords"
+        content="calculadora liquidacion ecuador, calculo despido intempestivo, cuanto me toca de liquidacion, simulador liquidacion ministerio trabajo">
+    <meta name="author" content="VARGAS LAWYERS S.A.S.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://vargaslawyer.com/calculadora-liquidacion.html" />
+    <title>Calculadora de Liquidación Laboral GRATIS | Ecuador 2026 | VARGAS LAWYERS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles-v2.css">
+    <link rel="stylesheet" href="modal.css">
+
+    <style>
+        .calc-container {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-xl);
+            padding: 40px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--color-text);
+            font-weight: 500;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px 16px;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--color-border);
+            background: var(--color-background);
+            color: var(--color-text);
+            font-family: var(--font-body);
+            font-size: 1rem;
+            transition: all var(--transition-base);
+        }
+
+        .form-control:focus {
+            border-color: var(--color-primary);
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(62, 168, 244, 0.2);
+        }
+
+        .result-box {
+            background: rgba(62, 168, 244, 0.1);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            margin-top: 32px;
+            text-align: center;
+            display: none;
+        }
+
+        .result-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--color-primary);
+            margin: 16px 0;
+            font-family: var(--font-heading);
+        }
+
+        .result-disclaimer {
+            font-size: 0.875rem;
+            color: var(--color-text-muted);
+            margin-bottom: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXTNX559" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="vargas-logo-full.png" alt="Vargas Lawyers S.A.S." class="logo-img"
+                    style="height: 50px; width: auto;" width="200" height="50">
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="laboral.html" class="nav-link">Laboral</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="index.html#contacto" class="nav-link cta-link">Contáctanos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: auto; padding-top: 140px; padding-bottom: 60px;">
+        <div class="hero-background"></div>
+        <div class="container" style="text-align: center;">
+            <div class="hero-badge">
+                <span>🧮</span> Herramienta Gratuita
+            </div>
+            <h1 class="hero-title">
+                Calculadora de Liquidación Laboral
+            </h1>
+            <p class="hero-subtitle" style="margin: 0 auto; max-width: 700px;">
+                Obtenga un estimado de su liquidación por despido intempestivo, desahucio o renuncia en segundos.
+            </p>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section class="services" style="padding-top: 0;">
+        <div class="container">
+            <div class="calc-container">
+                <div class="form-group">
+                    <label class="form-label">Motivo de salida</label>
+                    <select class="form-control" id="motivo">
+                        <option value="despido">Despido Intempestivo</option>
+                        <option value="desahucio">Desahucio (Aviso Previo)</option>
+                        <option value="renuncia">Renuncia Voluntaria</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Último sueldo mensual ($)</label>
+                    <input type="number" class="form-control" id="sueldo" placeholder="Ej: 460">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Tiempo trabajado (Años completos)</label>
+                    <input type="number" class="form-control" id="anios" placeholder="Ej: 3">
+                </div>
+
+                <button class="btn btn-primary btn-full" onclick="calcularLiquidacion()">
+                    Calcular Liquidación Estimada
+                </button>
+
+                <div class="result-box" id="resultBox">
+                    <h3>Su liquidación estimada es:</h3>
+                    <div class="result-value" id="totalValue">$0.00</div>
+                    <p class="result-disclaimer">
+                        *Este valor es referencial y no constituye asesoría legal vinculante. Puede variar según
+                        décimos, vacaciones no gozadas y fondos de reserva.
+                    </p>
+                    <a href="https://wa.me/593985899525?text=Hola,%20hice%20el%20cálculo%20en%20la%20web%20y%20quiero%20revisarlo%20con%20un%20abogado."
+                        class="btn btn-primary btn-full" target="_blank">
+                        Revisar mi cálculo GRATIS por WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section SEO -->
+    <section class="methodology" style="background: var(--color-background);">
+        <div class="container" style="max-width: 800px;">
+            <h2 class="section-title">¿Cómo se calcula mi liquidación?</h2>
+            <div style="color: var(--color-text-muted); line-height: 1.8;">
+                <p style="margin-bottom: 20px;">
+                    El cálculo depende fundamentalmente del motivo de salida:
+                </p>
+                <ul style="list-style: disc; padding-left: 20px; margin-bottom: 20px;">
+                    <li style="margin-bottom: 10px;"><strong>Despido Intempestivo:</strong> Es el pago más alto. Incluye
+                        3 meses de sueldo como indemnización base (hasta 3 años) más 1 sueldo por cada año trabajado.
+                    </li>
+                    <li style="margin-bottom: 10px;"><strong>Desahucio:</strong> Corresponde al 25% del último sueldo
+                        por cada año de servicio completo.</li>
+                    <li style="margin-bottom: 10px;"><strong>Renuncia:</strong> Generalmente solo recibe los
+                        proporcionales de ley (décimos y vacaciones), salvo que tenga más de 20 años en la empresa
+                        (jubilación patronal) o pacto colectivo.</li>
+                </ul>
+                <p>
+                    <strong>¡Atención!</strong> Muchos empleadores calculan mal a propósito. Si el valor que le ofrecen
+                    es menor a nuestro cálculo, contáctenos inmediatamente.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-column">
+                <img src="vargas-logo-full.png" alt="VARGAS LAWYERS" class="footer-logo"
+                    style="height: 60px; width: auto; margin-bottom: 20px;">
+                <p class="footer-description">
+                    Firma líder en Derecho Laboral en Ecuador. Defendiendo sus derechos con firmeza.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-title">Contacto</h4>
+                <p>Lunes - Viernes<br>09:00 - 18:00</p>
+                <p style="margin-top: 12px;">
+                    <strong>WhatsApp:</strong><br>
+                    +593 98 589 9525
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 VARGAS LAWYERS S.A.S. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function calcularLiquidacion() {
+            const motivo = document.getElementById('motivo').value;
+            const sueldo = parseFloat(document.getElementById('sueldo').value);
+            const anios = parseInt(document.getElementById('anios').value);
+
+            if (!sueldo || !anios || isNaN(sueldo) || isNaN(anios)) {
+                alert('Por favor ingrese todos los datos válidos');
+                return;
+            }
+
+            let total = 0;
+
+            // Lógica simplificada para estimado
+            if (motivo === 'despido') {
+                // Indemnización despido: 3 meses si es <= 3 años, o 1 mes por año si > 3 (pero mín 3 meses)
+                let indemnizacion = 0;
+                if (anios <= 3) {
+                    indemnizacion = sueldo * 3;
+                } else {
+                    indemnizacion = sueldo * anios;
+                }
+
+                // Bonificación desahucio (siempre va en despido intempestivo también)
+                let bonificacion = (sueldo * 0.25) * anios;
+
+                total = indemnizacion + bonificacion;
+            } else if (motivo === 'desahucio') {
+                total = (sueldo * 0.25) * anios;
+            } else {
+                // Renuncia voluntaria (solo proporcionales, aquí ponemos 0 base + advertencia)
+                total = 0;
+            }
+
+            // Sumar un estimado de proporcionales (décimos y vacaciones) ~ 50% de un sueldo como promedio
+            total += (sueldo * 0.5);
+
+            document.getElementById('totalValue').innerText = '$' + total.toFixed(2);
+            document.getElementById('resultBox').style.display = 'block';
+
+            // Scroll to result
+            document.getElementById('resultBox').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+
+</html>
