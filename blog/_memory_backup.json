@@ -1,0 +1,174 @@
+{
+    "updated_at": "2026-02-18T10:46:00-05:00",
+    "base_key_ready": true,
+    "base_key": {
+        "gtm_id": "GTM-PXTNX559",
+        "ga4_id": "G-SLC525VW38",
+        "gtm_head_snippet": "<!-- Google Tag Manager -->\n<script>(function (w, d, s, l, i) {\n        w[l] = w[l] || []; w[l].push({\n            'gtm.start':\n                new Date().getTime(), event: 'gtm.js'\n        }); var f = d.getElementsByTagName(s)[0],\n            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =\n                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);\n    })(window, document, 'script', 'dataLayer', 'GTM-PXTNX559');</script>\n<!-- End Google Tag Manager -->",
+        "gtm_noscript_snippet": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PXTNX559\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
+        "ga4_snippet": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-SLC525VW38\"></script>\n<script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag() { dataLayer.push(arguments); }\n    gtag('js', new Date());\n    gtag('config', 'G-SLC525VW38');\n</script>",
+        "base_meta_snippet": "<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta name=\"author\" content=\"VARGAS LAWYERS S.A.S.\">"
+    },
+    "calendar": [
+        {
+            "date": "2026-02-19",
+            "slug": "acta-finiquito-ecuador-que-revisar",
+            "keyword": "acta de finiquito Ecuador"
+        },
+        {
+            "date": "2026-02-23",
+            "slug": "pension-alimenticia-requisitos-ecuador",
+            "keyword": "requisitos pensión alimenticia Ecuador"
+        },
+        {
+            "date": "2026-02-26",
+            "slug": "divorcio-ecuador-tiempos-costos",
+            "keyword": "divorcio Ecuador cuánto demora"
+        },
+        {
+            "date": "2026-03-02",
+            "slug": "tenencia-regimen-visitas-ecuador",
+            "keyword": "tenencia régimen de visitas Ecuador"
+        },
+        {
+            "date": "2026-03-05",
+            "slug": "contrato-arriendo-ecuador-clausulas",
+            "keyword": "contrato de arriendo Ecuador cláusulas"
+        },
+        {
+            "date": "2026-03-09",
+            "slug": "reclamar-horas-extra-ecuador",
+            "keyword": "reclamar horas extra Ecuador"
+        },
+        {
+            "date": "2026-03-12",
+            "slug": "vacaciones-no-pagadas-ecuador",
+            "keyword": "vacaciones no pagadas Ecuador"
+        },
+        {
+            "date": "2026-03-16",
+            "slug": "incumplimiento-contrato-ecuador-pruebas",
+            "keyword": "incumplimiento de contrato Ecuador pruebas"
+        },
+        {
+            "date": "2026-03-19",
+            "slug": "prescripcion-deudas-ecuador",
+            "keyword": "prescripción de deudas Ecuador"
+        },
+        {
+            "date": "2026-03-23",
+            "slug": "pension-alimenticia-atrasada-ecuador",
+            "keyword": "pensión alimenticia atrasada Ecuador"
+        },
+        {
+            "date": "2026-03-26",
+            "slug": "mediacion-ecuador-cuando-conviene",
+            "keyword": "mediación Ecuador cuándo conviene"
+        },
+        {
+            "date": "2026-03-30",
+            "slug": "renuncia-obligada-ecuador-que-hacer",
+            "keyword": "renuncia obligada Ecuador despido"
+        }
+    ],
+    "published_posts": [
+        {
+            "date": "2026-01-15",
+            "slug": "derecho-civil-santo-domingo",
+            "title": "Guía Completa: Conflictos Civiles en Santo Domingo",
+            "keyword": "derecho civil santo domingo ecuador"
+        },
+        {
+            "date": "2026-01-22",
+            "slug": "pymes-blindaje-legal",
+            "title": "Blindaje para PYMES: Los 5 errores legales que más multas causan",
+            "keyword": "blindaje legal pymes ecuador"
+        },
+        {
+            "date": "2026-01-29",
+            "slug": "herencias-testamentos-ecuador",
+            "title": "Herencias en Ecuador: Guía práctica sobre testamentos",
+            "keyword": "herencias testamentos ecuador"
+        },
+        {
+            "date": "2026-02-03",
+            "slug": "sas-constitucion-ecuador",
+            "title": "Constitución de Compañías S.A.S.: Guía definitiva para emprender en Ecuador",
+            "keyword": "constitucion compania sas ecuador"
+        },
+        {
+            "date": "2026-02-06",
+            "slug": "cobro-letra-cambio-pagare",
+            "title": "¿Te deben dinero? Cómo cobrar una letra de cambio o pagaré legalmente",
+            "keyword": "cobrar letra de cambio ecuador"
+        },
+        {
+            "date": "2026-02-10",
+            "slug": "despido-intempestivo-liquidacion",
+            "title": "Despido intempestivo vs. Desahucio: ¿Cuánto te corresponde de liquidación realmente?",
+            "keyword": "despido intempestivo liquidacion ecuador"
+        },
+        {
+            "date": "2026-02-12",
+            "slug": "herencias-posesion-efectiva",
+            "title": "Herencias sin testamento: Pasos para hacer la Posesión Efectiva",
+            "keyword": "posesion efectiva ecuador herencias"
+        },
+        {
+            "date": "2026-02-16",
+            "slug": "pymes-blindaje-legal-ministerio",
+            "title": "Blindaje para PYMES: Los 5 errores legales que más multas causan en el Ministerio del Trabajo",
+            "keyword": "pymes errores laborales ministerio trabajo"
+        },
+        {
+            "date": "2026-02-19",
+            "slug": "inquilinato-desalojo",
+            "title": "Inquilinato: ¿Cómo sacar legalmente a un arrendatario que no paga?",
+            "keyword": "inquilinato desalojo ecuador"
+        },
+        {
+            "date": "2026-02-23",
+            "slug": "accion-proteccion-constitucional",
+            "title": "Derecho Constitucional: Qué es una Acción de Protección y cuándo puede salvar tu negocio",
+            "keyword": "accion de proteccion ecuador"
+        },
+        {
+            "date": "2026-02-26",
+            "slug": "registro-marca-senadi",
+            "title": "Cómo registrar tu marca en el SENADI y por qué es peligroso no hacerlo",
+            "keyword": "registro de marca senadi ecuador"
+        },
+        {
+            "date": "2026-03-02",
+            "slug": "divorcio-notarial-ecuador",
+            "title": "Divorcio por mutuo acuerdo en Notaría: Requisitos, tiempos y costos",
+            "keyword": "divorcio notarial ecuador"
+        },
+        {
+            "date": "2026-03-05",
+            "slug": "responsabilidad-medica-ecuador",
+            "title": "Responsabilidad Médica: ¿Qué hacer ante un caso de negligencia en Ecuador?",
+            "keyword": "responsabilidad medica ecuador negligencia"
+        }
+    ],
+    "keywords_used": [
+        "derecho civil santo domingo ecuador",
+        "blindaje legal pymes ecuador",
+        "herencias testamentos ecuador",
+        "constitucion compania sas ecuador",
+        "cobrar letra de cambio ecuador",
+        "despido intempestivo liquidacion ecuador",
+        "posesion efectiva ecuador herencias",
+        "pymes errores laborales ministerio trabajo",
+        "inquilinato desalojo ecuador",
+        "accion de proteccion ecuador",
+        "registro de marca senadi ecuador",
+        "divorcio notarial ecuador",
+        "responsabilidad medica ecuador negligencia"
+    ],
+    "notes": {
+        "blog_pension_alimenticia": "Borrador creado el 2026-02-18 como blog-pension-alimenticia-ecuador.html en raíz. NO es parte del nuevo calendario. El calendario nuevo usa slug 'pension-alimenticia-requisitos-ecuador' para 2026-02-23.",
+        "new_post_path": "blog/posts/YYYY-MM-DD-slug.html",
+        "canonical_base": "https://vargaslawyer.com/blog/posts/"
+    }
+}
