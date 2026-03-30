@@ -640,12 +640,16 @@ section {
 
 /* Team Section */
 .team-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: var(--spacing-xl);
 }
 
 .team-card {
+    flex: 0 1 calc(33.333% - var(--spacing-xl));
+    min-width: 280px;
+    max-width: 380px;
     background: var(--color-surface);
     border: 1px solid var(--color-border);
     border-radius: var(--radius-lg);
@@ -1261,8 +1265,11 @@ section {
     }
 
     .team-grid {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         gap: var(--spacing-lg);
+    }
+    .team-card {
+        flex: 0 1 calc(50% - var(--spacing-lg));
+        max-width: 360px;
     }
 
     .testimonials-slider {
@@ -1515,10 +1522,13 @@ section {
     }
 
     .team-grid {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        align-items: center;
     }
 
     .team-card {
+        flex: 0 1 100%;
+        max-width: 400px;
         padding: var(--spacing-lg);
     }
 
