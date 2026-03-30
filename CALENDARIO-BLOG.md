@@ -71,12 +71,34 @@ El archivo `blog.html` contiene un script que:
 
 ---
 
+---
+
+## 📅 ABRIL 2026 — Martes y Viernes a las 9:00am hora Ecuador (GMT-5)
+
+> **Nuevo sistema:** Los posts de abril usan `data-publish-datetime="YYYY-MM-DDT09:00:00-05:00"` en lugar de `data-publish-date`. El JS de blog.html fue actualizado para soportar ambos formatos.
+
+| # | Fecha | Día | Archivo | Categoría |
+|---|---|---|---|---|
+| 13 | 3 abr 2026 | Viernes | `blog/posts/2026-04-03-usucapion-prescripcion-adquisitiva-ecuador.html` | Derecho Civil |
+| 14 | 7 abr 2026 | Martes | `blog/posts/2026-04-07-acoso-laboral-ecuador-que-hacer.html` | Derecho Laboral |
+| 15 | 10 abr 2026 | Viernes | `blog/posts/2026-04-10-contrato-trabajador-domestico-ecuador.html` | Derecho Laboral |
+| 16 | 14 abr 2026 | Martes | `blog/posts/2026-04-14-sociedad-conyugal-bienes-ecuador.html` | Derecho de Familia |
+| 17 | 17 abr 2026 | Viernes | `blog/posts/2026-04-17-patente-invento-modelo-utilidad-ecuador.html` | Propiedad Intelectual |
+| 18 | 21 abr 2026 | Martes | `blog/posts/2026-04-21-contrato-prestacion-servicios-profesionales-ecuador.html` | Derecho Civil |
+| 19 | 24 abr 2026 | Viernes | `blog/posts/2026-04-24-junta-general-accionistas-ecuador.html` | Derecho Societario |
+| 20 | 28 abr 2026 | Martes | `blog/posts/2026-04-28-habeas-corpus-detencion-ilegal-ecuador.html` | Derecho Constitucional |
+
+**Skill usado:** `blog-humanizer` — tono humano, citas legales reales con número de artículo, voz primera persona plural.
+
+---
+
 ## ✅ VERIFICACIONES COMPLETADAS
 
 - ✅ Todos los archivos HTML individuales tienen Google Analytics integrado
 - ✅ Todos los archivos HTML tienen SEO completo (meta tags, descriptions, keywords)
-- ✅ Las fechas en `blog.html` coinciden con los `data-publish-date`
+- ✅ Las fechas en `blog.html` coinciden con los `data-publish-date` / `data-publish-datetime`
 - ✅ El contraste de texto es correcto (texto claro sobre fondo oscuro)
+- ✅ Posts de abril 2026: usan `data-publish-datetime` con hora 09:00:00-05:00 (9am Ecuador)
 - ✅ Sistema de filtrado respeta artículos programados
 - ✅ Console.log muestra estado de publicación en tiempo real
 
