@@ -114,10 +114,41 @@ El archivo `blog.html` contiene un script que:
 
 ---
 
+---
+
+## 📅 MAYO–JUNIO 2026 — Martes y Jueves a las 9:00am hora Ecuador (GMT-5)
+
+> **Sistema:** `data-publish-datetime="YYYY-MM-DDTHH:MM:SS-05:00"` — igual que abril.
+
+| # | Fecha | Día | Archivo | Categoría | Keyword Principal |
+|---|---|---|---|---|---|
+| 21 | 5 may 2026 | Martes | `blog/posts/2026-05-05-decimo-cuarto-sueldo-ecuador-2026.html` | Derecho Laboral | décimo cuarto sueldo ecuador 2026 |
+| 22 | 7 may 2026 | Jueves | `blog/posts/2026-05-07-union-de-hecho-ecuador-registro-derechos.html` | Derecho de Familia | union de hecho ecuador registro derechos |
+| 23 | 12 may 2026 | Martes | `blog/posts/2026-05-12-compraventa-inmueble-ecuador-escritura-publica.html` | Derecho Civil | compraventa inmueble ecuador escritura publica |
+| 24 | 14 may 2026 | Jueves | `blog/posts/2026-05-14-violencia-intrafamiliar-medidas-proteccion-ecuador.html` | Derecho de Familia | violencia intrafamiliar medidas proteccion ecuador |
+| 25 | 19 may 2026 | Martes | `blog/posts/2026-05-19-representante-legal-empresa-ecuador-responsabilidades.html` | Derecho Societario | representante legal empresa ecuador responsabilidades |
+| 26 | 21 may 2026 | Jueves | `blog/posts/2026-05-21-dano-moral-ecuador-demanda-indemnizacion.html` | Derecho Civil | daño moral ecuador demanda indemnizacion |
+| 27 | 26 may 2026 | Martes | `blog/posts/2026-05-26-jubilacion-patronal-ecuador-requisitos-calculo.html` | Derecho Laboral | jubilacion patronal ecuador requisitos calculo |
+| 28 | 28 may 2026 | Jueves | `blog/posts/2026-05-28-reconocimiento-hijo-extramatrimonial-ecuador.html` | Derecho de Familia | reconocimiento hijo extramatrimonial ecuador proceso |
+| 29 | 2 jun 2026 | Martes | `blog/posts/2026-06-02-nulidad-contrato-ecuador-causas-proceso.html` | Derecho Civil | nulidad contrato ecuador causas proceso |
+| 30 | 4 jun 2026 | Jueves | `blog/posts/2026-06-04-contrato-prueba-ecuador-derechos-trabajador.html` | Derecho Laboral | contrato prueba ecuador derechos trabajador |
+| 31 | 9 jun 2026 | Martes | `blog/posts/2026-06-09-derechos-autor-copyright-ecuador-registro-senadi.html` | Propiedad Intelectual | derechos de autor copyright ecuador registro senadi |
+| 32 | 11 jun 2026 | Jueves | `blog/posts/2026-06-11-prestamo-entre-particulares-documento-legal-ecuador.html` | Derecho Civil | prestamo entre particulares documento legal ecuador |
+| 33 | 16 jun 2026 | Martes | `blog/posts/2026-06-16-habeas-data-ecuador-datos-personales-proteccion.html` | Derecho Constitucional | habeas data ecuador datos personales proteccion |
+| 34 | 18 jun 2026 | Jueves | `blog/posts/2026-06-18-modificar-estatutos-empresa-ecuador-proceso-costos.html` | Derecho Societario | modificar estatutos empresa ecuador proceso costos |
+| 35 | 23 jun 2026 | Martes | `blog/posts/2026-06-23-arrendamiento-local-comercial-ecuador-clausulas.html` | Derecho Civil | arrendamiento local comercial ecuador clausulas |
+| 36 | 25 jun 2026 | Jueves | `blog/posts/2026-06-25-derechos-consumidor-ecuador-reclamacion-defensoria.html` | Derecho Civil | derechos consumidor ecuador reclamacion defensoria |
+| 37 | 30 jun 2026 | Martes | `blog/posts/2026-06-30-adopcion-ecuador-requisitos-proceso-tiempos.html` | Derecho de Familia | adopcion ecuador requisitos proceso tiempos |
+
+**Distribución:** Civil (7) · Familia (4) · Laboral (3) · Societario (2) · PI (1) · Constitucional (1)
+
+---
+
 ## 🚀 PRÓXIMAS ACCIONES
 
 Para agregar nuevos artículos:
 1. Crear el archivo HTML individual con SEO y Google Analytics
-2. Agregar la tarjeta en `blog.html` con el `data-publish-date` correcto
-3. Usar `color: #e2e8f0` para el texto de fecha
-4. Seguir el patrón Lunes/Jueves para mantener consistencia
+2. Agregar la tarjeta en `blog.html` con el `data-publish-datetime` correcto (formato: `YYYY-MM-DDTHH:MM:SS-05:00`)
+3. Agregar entrada en `blog/posts.json`
+4. Actualizar este calendario
+5. Seguir el patrón Martes/Jueves a las 9am hora Ecuador
