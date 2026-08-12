@@ -1,344 +1,416 @@
 [
-    {
-        "title": "Pensión Alimenticia en Ecuador: Cómo se Calcula y Qué Hacer si No la Pagan",
-        "date": "2026-02-19",
-        "slug": "pension-alimenticia-ecuador",
-        "excerpt": "Tabla oficial 2025, proceso judicial paso a paso y qué hacer cuando el obligado no paga. Guía práctica con checklist y FAQ.",
-        "url": "https://vargaslawyer.com/blog-pension-alimenticia-ecuador.html",
-        "keyword": "pension alimenticia ecuador como calcular",
-        "category": "Derecho de Familia"
-    },
-    {
-        "title": "¿Te deben dinero? Cómo cobrar una letra de cambio o pagaré legalmente",
-        "date": "2026-02-13",
-        "slug": "cobro-letra-cambio-pagare",
-        "excerpt": "Proceso legal exacto, plazos, costos del juicio ejecutivo y estrategias efectivas para recuperar tu dinero.",
-        "url": "https://vargaslawyer.com/blog-cobro-letra-cambio-pagare.html",
-        "keyword": "cobrar letra de cambio ecuador",
-        "category": "Derecho Civil"
-    },
-    {
-        "title": "Derecho Constitucional: Qué es una Acción de Protección y cuándo puede salvar tu negocio",
-        "date": "2026-02-23",
-        "slug": "accion-proteccion-constitucional",
-        "excerpt": "Cuándo usar esta herramienta constitucional, proceso, plazos y casos de éxito en defensa empresarial.",
-        "url": "https://vargaslawyer.com/blog-accion-proteccion-constitucional.html",
-        "keyword": "accion de proteccion ecuador",
-        "category": "Derecho Constitucional"
-    },
-    {
-        "title": "Cómo registrar tu marca en el SENADI y por qué es peligroso no hacerlo",
-        "date": "2026-02-26",
-        "slug": "registro-marca-senadi",
-        "excerpt": "Proceso completo de registro de marca, costos, plazos y riesgos de no proteger tu propiedad intelectual.",
-        "url": "https://vargaslawyer.com/blog-registro-marca-senadi.html",
-        "keyword": "registro de marca senadi ecuador",
-        "category": "Propiedad Intelectual"
-    },
-    {
-        "title": "Divorcio por mutuo acuerdo en Notaría: Requisitos, tiempos y costos",
-        "date": "2026-03-02",
-        "slug": "divorcio-notarial-ecuador",
-        "excerpt": "Proceso completo de divorcio notarial, documentos necesarios, plazos y costos reales en Ecuador.",
-        "url": "https://vargaslawyer.com/blog-divorcio-notarial-ecuador.html",
-        "keyword": "divorcio notarial ecuador",
-        "category": "Derecho de Familia"
-    },
-    {
-        "title": "Responsabilidad Médica: ¿Qué hacer ante un caso de negligencia en Ecuador?",
-        "date": "2026-03-05",
-        "slug": "responsabilidad-medica-ecuador",
-        "excerpt": "Proceso legal, pruebas necesarias, plazos y estrategias para casos de negligencia médica.",
-        "url": "https://vargaslawyer.com/blog-responsabilidad-medica-ecuador.html",
-        "keyword": "responsabilidad medica ecuador negligencia",
-        "category": "Derecho Civil"
-    },
-    {
-        "title": "Herencias sin testamento: Pasos para hacer la Posesión Efectiva",
-        "date": "2026-02-12",
-        "slug": "herencias-posesion-efectiva",
-        "excerpt": "Proceso completo, documentos necesarios, plazos y costos para reclamar una herencia sin testamento.",
-        "url": "https://vargaslawyer.com/blog-herencias-posesion-efectiva.html",
-        "keyword": "posesion efectiva ecuador herencias",
-        "category": "Derecho de Familia"
-    },
-    {
-        "title": "Despido intempestivo vs. Desahucio: ¿Cuánto te corresponde de liquidación realmente?",
-        "date": "2026-02-10",
-        "slug": "despido-intempestivo-liquidacion",
-        "excerpt": "Diferencias clave, cálculo exacto de liquidación, rubros que te corresponden y cuándo demandar.",
-        "url": "https://vargaslawyer.com/blog-despido-intempestivo-liquidacion.html",
-        "keyword": "despido intempestivo liquidacion ecuador",
-        "category": "Derecho Laboral"
-    },
-    {
-        "title": "Constitución de Compañías S.A.S.: Guía definitiva para emprender en Ecuador",
-        "date": "2026-02-03",
-        "slug": "sas-constitucion-ecuador",
-        "excerpt": "Todo lo que necesitas saber para constituir una S.A.S.: requisitos, costos, ventajas y proceso paso a paso.",
-        "url": "https://vargaslawyer.com/blog-sas-constitucion-ecuador.html",
-        "keyword": "constitucion compania sas ecuador",
-        "category": "Derecho Societario"
-    },
-    {
-        "title": "Herencias en Ecuador: Guía práctica sobre testamentos",
-        "date": "2026-01-29",
-        "slug": "herencias-testamentos-ecuador",
-        "excerpt": "Todo sobre testamentos, herencias y cómo proteger el patrimonio familiar en Ecuador.",
-        "url": "https://vargaslawyer.com/blog-herencias-testamentos-ecuador.html",
-        "keyword": "herencias testamentos ecuador",
-        "category": "Derecho de Familia"
-    },
-    {
-        "title": "Blindaje para PYMES: Los 5 errores legales que más multas causan",
-        "date": "2026-01-22",
-        "slug": "pymes-blindaje-legal",
-        "excerpt": "Errores costosos en gestión laboral y estrategia de blindaje jurídico para proteger tu empresa.",
-        "url": "https://vargaslawyer.com/blog-pymes-blindaje-legal.html",
-        "keyword": "blindaje legal pymes ecuador",
-        "category": "Derecho Laboral"
-    },
-    {
-        "title": "Guía Completa: Conflictos Civiles en Santo Domingo",
-        "date": "2026-01-15",
-        "slug": "derecho-civil-santo-domingo",
-        "excerpt": "Todo lo que necesitas saber sobre deudas, contratos incumplidos y obligaciones civiles.",
-        "url": "https://vargaslawyer.com/blog-derecho-civil-santo-domingo.html",
-        "keyword": "derecho civil santo domingo ecuador",
-        "category": "Derecho Civil"
-    },
-    {
-        "title": "Inquilinato: ¿Cómo sacar legalmente a un arrendatario que no paga?",
-        "date": "2026-02-19",
-        "slug": "inquilinato-desalojo",
-        "excerpt": "Proceso de desalojo paso a paso, documentos necesarios, plazos y estrategias legales efectivas.",
-        "url": "https://vargaslawyer.com/blog-inquilinato-desalojo.html",
-        "keyword": "inquilinato desalojo ecuador",
-        "category": "Derecho Civil"
-    },
-    {
-        "title": "Usucapión en Ecuador: Cómo Convertirte en Propietario Legal de un Terreno que Has Poseído por Años",
-        "date": "2026-04-03",
-        "slug": "usucapion-prescripcion-adquisitiva-ecuador",
-        "excerpt": "Prescripción adquisitiva ordinaria y extraordinaria, plazos, pruebas necesarias y proceso legal ante el juez.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-04-03-usucapion-prescripcion-adquisitiva-ecuador.html",
-        "keyword": "usucapion prescripcion adquisitiva ecuador",
-        "category": "Derecho Civil"
-    },
-    {
-        "title": "Acoso Laboral en Ecuador: Qué es, Cómo Denunciarlo y Qué Indemnización te Corresponde",
-        "date": "2026-04-07",
-        "slug": "acoso-laboral-ecuador-que-hacer",
-        "excerpt": "Tipos de acoso laboral, proceso de denuncia ante el Ministerio del Trabajo y derechos del trabajador afectado.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-04-07-acoso-laboral-ecuador-que-hacer.html",
-        "keyword": "acoso laboral ecuador denuncia indemnizacion",
-        "category": "Derecho Laboral"
-    },
-    {
-        "title": "Trabajador Doméstico en Ecuador: Derechos, Contrato y Obligaciones del Empleador",
-        "date": "2026-04-10",
-        "slug": "contrato-trabajador-domestico-ecuador",
-        "excerpt": "Salario mínimo 2025, afiliación obligatoria al IESS, décimos y obligaciones del empleador doméstico.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-04-10-contrato-trabajador-domestico-ecuador.html",
-        "keyword": "trabajador domestico derechos ecuador iess",
-        "category": "Derecho Laboral"
-    },
-    {
-        "title": "Sociedad Conyugal en Ecuador: Qué Bienes son Comunes y Cómo Proteger tu Patrimonio",
-        "date": "2026-04-14",
-        "slug": "sociedad-conyugal-bienes-ecuador",
-        "excerpt": "Bienes propios vs. gananciales, capitulaciones matrimoniales y cómo se liquida la sociedad conyugal.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-04-14-sociedad-conyugal-bienes-ecuador.html",
-        "keyword": "sociedad conyugal bienes gananciales ecuador",
-        "category": "Derecho de Familia"
-    },
-    {
-        "title": "Patentes e Inventos en Ecuador: Cómo Proteger tu Idea Antes de Que Alguien Más lo Haga",
-        "date": "2026-04-17",
-        "slug": "patente-invento-modelo-utilidad-ecuador",
-        "excerpt": "Patente de invención vs. modelo de utilidad, requisitos, costos y proceso ante el SENADI.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-04-17-patente-invento-modelo-utilidad-ecuador.html",
-        "keyword": "patentar invento ecuador senadi",
-        "category": "Propiedad Intelectual"
-    },
-    {
-        "title": "Contrato de Servicios Profesionales: Diferencias con la Relación Laboral y Cómo Redactarlo",
-        "date": "2026-04-21",
-        "slug": "contrato-prestacion-servicios-profesionales-ecuador",
-        "excerpt": "Cuándo usar un contrato civil, riesgos de simulación laboral, cláusulas obligatorias y facturación al SRI.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-04-21-contrato-prestacion-servicios-profesionales-ecuador.html",
-        "keyword": "contrato servicios profesionales ecuador relacion laboral",
-        "category": "Derecho Civil"
-    },
-    {
-        "title": "Junta General de Accionistas en Ecuador: Convocatoria, Quórum y Acuerdos que Obligan a la Empresa",
-        "date": "2026-04-24",
-        "slug": "junta-general-accionistas-ecuador",
-        "excerpt": "Cómo convocar correctamente, quórum mínimo, qué resoluciones son impugnables y errores que anulan decisiones.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-04-24-junta-general-accionistas-ecuador.html",
-        "keyword": "junta general accionistas ecuador convocatoria quorum",
-        "category": "Derecho Societario"
-    },
-    {
-        "title": "Hábeas Corpus en Ecuador: Cuándo Usarlo para Liberar a Alguien Detenido Ilegalmente",
-        "date": "2026-04-28",
-        "slug": "habeas-corpus-detencion-ilegal-ecuador",
-        "excerpt": "Qué es el hábeas corpus, quién puede presentarlo, ante qué juez y qué sucede si la detención es ilegal.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-04-28-habeas-corpus-detencion-ilegal-ecuador.html",
-        "keyword": "habeas corpus ecuador detencion ilegal",
-        "category": "Derecho Constitucional"
-    },
-    {
-        "title": "Décimo Cuarto Sueldo 2026: Cuándo se Paga, Cómo se Calcula y Qué Hacer si No te lo Cancelan",
-        "date": "2026-05-05",
-        "slug": "decimo-cuarto-sueldo-ecuador-2026",
-        "excerpt": "Fechas de pago por región, fórmula de cálculo proporcional y pasos para reclamar ante la Inspectoría del Trabajo.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-05-05-decimo-cuarto-sueldo-ecuador-2026.html",
-        "keyword": "décimo cuarto sueldo ecuador 2026",
-        "category": "Derecho Laboral"
-    },
-    {
-        "title": "Unión de Hecho en Ecuador: Cómo Registrarla, Derechos que Genera y Diferencias con el Matrimonio",
-        "date": "2026-05-07",
-        "slug": "union-de-hecho-ecuador-registro-derechos",
-        "excerpt": "Requisitos de registro, sociedad de bienes, herencia, IESS y cómo terminarla legalmente.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-05-07-union-de-hecho-ecuador-registro-derechos.html",
-        "keyword": "union de hecho ecuador registro derechos",
-        "category": "Derecho de Familia"
-    },
-    {
-        "title": "Compraventa de Inmueble en Ecuador: Qué Revisar Antes de Firmar y Cómo Evitar Fraudes",
-        "date": "2026-05-12",
-        "slug": "compraventa-inmueble-ecuador-escritura-publica",
-        "excerpt": "Certificado de gravámenes, historial de dominio, proceso notarial, costos y riesgos de doble venta.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-05-12-compraventa-inmueble-ecuador-escritura-publica.html",
-        "keyword": "compraventa inmueble ecuador escritura publica",
-        "category": "Derecho Civil"
-    },
-    {
-        "title": "Violencia Intrafamiliar en Ecuador: Medidas de Protección de Urgencia y Cómo Activarlas",
-        "date": "2026-05-14",
-        "slug": "violencia-intrafamiliar-medidas-proteccion-ecuador",
-        "excerpt": "Tipos de violencia, boleta de auxilio, dónde denunciar y qué hace el juez en las primeras 48 horas.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-05-14-violencia-intrafamiliar-medidas-proteccion-ecuador.html",
-        "keyword": "violencia intrafamiliar medidas proteccion urgencia ecuador",
-        "category": "Derecho de Familia"
-    },
-    {
-        "title": "Representante Legal de una Empresa: Responsabilidades, Riesgos Personales y Cómo Protegerte en Ecuador",
-        "date": "2026-05-19",
-        "slug": "representante-legal-empresa-ecuador-responsabilidades",
-        "excerpt": "Qué puede firmar, cuándo responde con su patrimonio personal y cómo limitar su exposición legal.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-05-19-representante-legal-empresa-ecuador-responsabilidades.html",
-        "keyword": "representante legal empresa ecuador responsabilidades",
-        "category": "Derecho Societario"
-    },
-    {
-        "title": "Daño Moral en Ecuador: Cuándo Puedes Demandar, Qué Pruebas Necesitas y Cuánto Puedes Obtener",
-        "date": "2026-05-21",
-        "slug": "dano-moral-ecuador-demanda-indemnizacion",
-        "excerpt": "Art. 2232 Código Civil, tipos de afectación, prueba del daño y discrecionalidad judicial en el monto.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-05-21-dano-moral-ecuador-demanda-indemnizacion.html",
-        "keyword": "daño moral ecuador demanda indemnizacion",
-        "category": "Derecho Civil"
-    },
-    {
-        "title": "Jubilación Patronal en Ecuador: Quién Tiene Derecho, Cuándo Aplica y Cómo Calcularla",
-        "date": "2026-05-26",
-        "slug": "jubilacion-patronal-ecuador-requisitos-calculo",
-        "excerpt": "25 años con el mismo empleador, fórmula de cálculo, diferencia con la jubilación del IESS y cómo reclamarla.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-05-26-jubilacion-patronal-ecuador-requisitos-calculo.html",
-        "keyword": "jubilacion patronal ecuador requisitos calculo",
-        "category": "Derecho Laboral"
-    },
-    {
-        "title": "Reconocimiento de Hijo en Ecuador: Proceso Voluntario y Acción de Filiación Judicial",
-        "date": "2026-05-28",
-        "slug": "reconocimiento-hijo-extramatrimonial-ecuador",
-        "excerpt": "Cómo reconocer ante Registro Civil o Notaría, prueba de ADN, efectos legales y qué pasa si el padre se niega.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-05-28-reconocimiento-hijo-extramatrimonial-ecuador.html",
-        "keyword": "reconocimiento hijo extramatrimonial ecuador proceso",
-        "category": "Derecho de Familia"
-    },
-    {
-        "title": "Nulidad de Contrato en Ecuador: Causas, Diferencia con la Rescisión y Cómo Recuperar lo Pagado",
-        "date": "2026-06-02",
-        "slug": "nulidad-contrato-ecuador-causas-proceso",
-        "excerpt": "Nulidad absoluta vs. relativa, vicios del consentimiento, efectos y prescripción de la acción.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-06-02-nulidad-contrato-ecuador-causas-proceso.html",
-        "keyword": "nulidad contrato ecuador causas proceso",
-        "category": "Derecho Civil"
-    },
-    {
-        "title": "Contrato de Trabajo a Prueba en Ecuador: Derechos del Trabajador y Límites del Empleador",
-        "date": "2026-06-04",
-        "slug": "contrato-prueba-ecuador-derechos-trabajador",
-        "excerpt": "90 días máximo, derechos durante el período, IESS obligatorio y qué pasa si el empleador abusa del sistema.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-06-04-contrato-prueba-ecuador-derechos-trabajador.html",
-        "keyword": "contrato prueba ecuador derechos trabajador duracion",
-        "category": "Derecho Laboral"
-    },
-    {
-        "title": "Derechos de Autor en Ecuador: Cómo Registrar tu Obra y Qué Hacer ante un Plagio",
-        "date": "2026-06-09",
-        "slug": "derechos-autor-copyright-ecuador-registro-senadi",
-        "excerpt": "Código INGENIOS, registro ante SENADI, derechos morales vs. patrimoniales y acciones ante plagio digital.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-06-09-derechos-autor-copyright-ecuador-registro-senadi.html",
-        "keyword": "derechos de autor copyright ecuador registro senadi",
-        "category": "Propiedad Intelectual"
-    },
-    {
-        "title": "Préstamo entre Particulares en Ecuador: Cómo Documentarlo para que Tenga Validez Legal",
-        "date": "2026-06-11",
-        "slug": "prestamo-entre-particulares-documento-legal-ecuador",
-        "excerpt": "Pagaré vs. contrato de mutuo, interés máximo convencional, prescripción y cómo cobrar judicialmente.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-06-11-prestamo-entre-particulares-documento-legal-ecuador.html",
-        "keyword": "prestamo entre particulares documento legal ecuador",
-        "category": "Derecho Civil"
-    },
-    {
-        "title": "Acción de Hábeas Data en Ecuador: Cuándo Usarla para Proteger tus Datos Personales",
-        "date": "2026-06-16",
-        "slug": "habeas-data-ecuador-datos-personales-proteccion",
-        "excerpt": "Art. 92 Constitución, LOPDP 2021, centrales de riesgo, corrección de datos y diferencia con el derecho al olvido.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-06-16-habeas-data-ecuador-datos-personales-proteccion.html",
-        "keyword": "habeas data ecuador datos personales proteccion",
-        "category": "Derecho Constitucional"
-    },
-    {
-        "title": "Cómo Modificar los Estatutos de tu Empresa en Ecuador: Proceso, Costos y Errores Frecuentes",
-        "date": "2026-06-18",
-        "slug": "modificar-estatutos-empresa-ecuador-proceso-costos",
-        "excerpt": "Junta General, quórum, notaría, Superintendencia de Compañías y Registro Mercantil — paso a paso.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-06-18-modificar-estatutos-empresa-ecuador-proceso-costos.html",
-        "keyword": "modificar estatutos empresa ecuador proceso costos",
-        "category": "Derecho Societario"
-    },
-    {
-        "title": "Arrendamiento de Local Comercial en Ecuador: Diferencias con la Vivienda y Cláusulas Clave",
-        "date": "2026-06-23",
-        "slug": "arrendamiento-local-comercial-ecuador-clausulas",
-        "excerpt": "Por qué no aplica la Ley de Inquilinato, libertad contractual, cláusulas esenciales y desalojo comercial.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-06-23-arrendamiento-local-comercial-ecuador-clausulas.html",
-        "keyword": "arrendamiento local comercial ecuador contrato clausulas",
-        "category": "Derecho Civil"
-    },
-    {
-        "title": "Derechos del Consumidor en Ecuador: Cómo Reclamar ante la Defensoría del Pueblo",
-        "date": "2026-06-25",
-        "slug": "derechos-consumidor-ecuador-reclamacion-defensoria",
-        "excerpt": "LODC, garantía mínima legal, productos defectuosos, publicidad engañosa y proceso de reclamo gratuito.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-06-25-derechos-consumidor-ecuador-reclamacion-defensoria.html",
-        "keyword": "derechos consumidor ecuador reclamacion defensoria",
-        "category": "Derecho Civil"
-    },
-    {
-        "title": "Adopción en Ecuador: Requisitos, Etapas del Proceso Legal y Tiempos Reales",
-        "date": "2026-06-30",
-        "slug": "adopcion-ecuador-requisitos-proceso-tiempos",
-        "excerpt": "MIES, declaratoria de idoneidad, Comité de Asignación, período de adaptación y por qué no hay atajos legales.",
-        "url": "https://vargaslawyer.com/blog/posts/2026-06-30-adopcion-ecuador-requisitos-proceso-tiempos.html",
-        "keyword": "adopcion ecuador requisitos proceso tiempos",
-        "category": "Derecho de Familia"
-    }
+  {
+    "title": "Guía Completa: Conflictos Civiles en Santo Domingo",
+    "date": "2026-01-15",
+    "slug": "derecho-civil-santo-domingo",
+    "excerpt": "Todo lo que necesitas saber sobre deudas, contratos incumplidos y obligaciones civiles.",
+    "url": "https://vargaslawyer.com/blog-derecho-civil-santo-domingo.html",
+    "keyword": "derecho civil santo domingo ecuador",
+    "category": "Derecho Civil"
+  },
+  {
+    "title": "Blindaje para PYMES: Los 5 errores legales que más multas causan",
+    "date": "2026-01-22",
+    "slug": "pymes-blindaje-legal",
+    "excerpt": "Errores costosos en gestión laboral y estrategia de blindaje jurídico para proteger tu empresa.",
+    "url": "https://vargaslawyer.com/blog-pymes-blindaje-legal.html",
+    "keyword": "blindaje legal pymes ecuador",
+    "category": "Derecho Laboral"
+  },
+  {
+    "title": "Herencias en Ecuador: Guía práctica sobre testamentos",
+    "date": "2026-01-29",
+    "slug": "herencias-testamentos-ecuador",
+    "excerpt": "Todo sobre testamentos, herencias y cómo proteger el patrimonio familiar en Ecuador.",
+    "url": "https://vargaslawyer.com/blog-herencias-testamentos-ecuador.html",
+    "keyword": "herencias testamentos ecuador",
+    "category": "Derecho de Familia"
+  },
+  {
+    "title": "Constitución de Compañías S.A.S.: Guía definitiva para emprender en Ecuador",
+    "date": "2026-02-03",
+    "slug": "sas-constitucion-ecuador",
+    "excerpt": "Todo lo que necesitas saber para constituir una S.A.S.: requisitos, costos, ventajas y proceso paso a paso.",
+    "url": "https://vargaslawyer.com/blog-sas-constitucion-ecuador.html",
+    "keyword": "constitucion compania sas ecuador",
+    "category": "Derecho Societario"
+  },
+  {
+    "title": "Despido intempestivo vs. Desahucio: ¿Cuánto te corresponde de liquidación realmente?",
+    "date": "2026-02-10",
+    "slug": "despido-intempestivo-liquidacion",
+    "excerpt": "Diferencias clave, cálculo exacto de liquidación, rubros que te corresponden y cuándo demandar.",
+    "url": "https://vargaslawyer.com/blog-despido-intempestivo-liquidacion.html",
+    "keyword": "despido intempestivo liquidacion ecuador",
+    "category": "Derecho Laboral"
+  },
+  {
+    "title": "Herencias sin testamento: Pasos para hacer la Posesión Efectiva",
+    "date": "2026-02-12",
+    "slug": "herencias-posesion-efectiva",
+    "excerpt": "Proceso completo, documentos necesarios, plazos y costos para reclamar una herencia sin testamento.",
+    "url": "https://vargaslawyer.com/blog-herencias-posesion-efectiva.html",
+    "keyword": "posesion efectiva ecuador herencias",
+    "category": "Derecho de Familia"
+  },
+  {
+    "title": "¿Te deben dinero? Cómo cobrar una letra de cambio o pagaré legalmente",
+    "date": "2026-02-13",
+    "slug": "cobro-letra-cambio-pagare",
+    "excerpt": "Proceso legal exacto, plazos, costos del juicio ejecutivo y estrategias efectivas para recuperar tu dinero.",
+    "url": "https://vargaslawyer.com/blog-cobro-letra-cambio-pagare.html",
+    "keyword": "cobrar letra de cambio ecuador",
+    "category": "Derecho Civil"
+  },
+  {
+    "title": "Pensión Alimenticia en Ecuador: Cómo se Calcula y Qué Hacer si No la Pagan",
+    "date": "2026-02-19",
+    "slug": "pension-alimenticia-ecuador",
+    "excerpt": "Tabla oficial 2025, proceso judicial paso a paso y qué hacer cuando el obligado no paga. Guía práctica con checklist y FAQ.",
+    "url": "https://vargaslawyer.com/blog-pension-alimenticia-ecuador.html",
+    "keyword": "pension alimenticia ecuador como calcular",
+    "category": "Derecho de Familia"
+  },
+  {
+    "title": "Inquilinato: ¿Cómo sacar legalmente a un arrendatario que no paga?",
+    "date": "2026-02-19",
+    "slug": "inquilinato-desalojo",
+    "excerpt": "Proceso de desalojo paso a paso, documentos necesarios, plazos y estrategias legales efectivas.",
+    "url": "https://vargaslawyer.com/blog-inquilinato-desalojo.html",
+    "keyword": "inquilinato desalojo ecuador",
+    "category": "Derecho Civil"
+  },
+  {
+    "title": "Derecho Constitucional: Qué es una Acción de Protección y cuándo puede salvar tu negocio",
+    "date": "2026-02-23",
+    "slug": "accion-proteccion-constitucional",
+    "excerpt": "Cuándo usar esta herramienta constitucional, proceso, plazos y casos de éxito en defensa empresarial.",
+    "url": "https://vargaslawyer.com/blog-accion-proteccion-constitucional.html",
+    "keyword": "accion de proteccion ecuador",
+    "category": "Derecho Constitucional"
+  },
+  {
+    "title": "Cómo registrar tu marca en el SENADI y por qué es peligroso no hacerlo",
+    "date": "2026-02-26",
+    "slug": "registro-marca-senadi",
+    "excerpt": "Proceso completo de registro de marca, costos, plazos y riesgos de no proteger tu propiedad intelectual.",
+    "url": "https://vargaslawyer.com/blog-registro-marca-senadi.html",
+    "keyword": "registro de marca senadi ecuador",
+    "category": "Propiedad Intelectual"
+  },
+  {
+    "title": "Divorcio por mutuo acuerdo en Notaría: Requisitos, tiempos y costos",
+    "date": "2026-03-02",
+    "slug": "divorcio-notarial-ecuador",
+    "excerpt": "Proceso completo de divorcio notarial, documentos necesarios, plazos y costos reales en Ecuador.",
+    "url": "https://vargaslawyer.com/blog-divorcio-notarial-ecuador.html",
+    "keyword": "divorcio notarial ecuador",
+    "category": "Derecho de Familia"
+  },
+  {
+    "title": "Responsabilidad Médica: ¿Qué hacer ante un caso de negligencia en Ecuador?",
+    "date": "2026-03-05",
+    "slug": "responsabilidad-medica-ecuador",
+    "excerpt": "Proceso legal, pruebas necesarias, plazos y estrategias para casos de negligencia médica.",
+    "url": "https://vargaslawyer.com/blog-responsabilidad-medica-ecuador.html",
+    "keyword": "responsabilidad medica ecuador negligencia",
+    "category": "Derecho Civil"
+  },
+  {
+    "title": "Usucapión en Ecuador: Cómo Convertirte en Propietario Legal de un Terreno que Has Poseído por Años",
+    "date": "2026-08-13",
+    "slug": "usucapion-prescripcion-adquisitiva-ecuador",
+    "excerpt": "Prescripción adquisitiva ordinaria y extraordinaria, plazos, pruebas necesarias y proceso legal ante el juez.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-04-03-usucapion-prescripcion-adquisitiva-ecuador.html",
+    "keyword": "usucapion prescripcion adquisitiva ecuador",
+    "category": "Derecho Civil"
+  },
+  {
+    "title": "Acoso Laboral en Ecuador: Qué es, Cómo Denunciarlo y Qué Indemnización te Corresponde",
+    "date": "2026-08-18",
+    "slug": "acoso-laboral-ecuador-que-hacer",
+    "excerpt": "Tipos de acoso laboral, proceso de denuncia ante el Ministerio del Trabajo y derechos del trabajador afectado.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-04-07-acoso-laboral-ecuador-que-hacer.html",
+    "keyword": "acoso laboral ecuador denuncia indemnizacion",
+    "category": "Derecho Laboral"
+  },
+  {
+    "title": "Trabajador Doméstico en Ecuador: Derechos, Contrato y Obligaciones del Empleador",
+    "date": "2026-08-20",
+    "slug": "contrato-trabajador-domestico-ecuador",
+    "excerpt": "Salario mínimo 2025, afiliación obligatoria al IESS, décimos y obligaciones del empleador doméstico.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-04-10-contrato-trabajador-domestico-ecuador.html",
+    "keyword": "trabajador domestico derechos ecuador iess",
+    "category": "Derecho Laboral"
+  },
+  {
+    "title": "Sociedad Conyugal en Ecuador: Qué Bienes son Comunes y Cómo Proteger tu Patrimonio",
+    "date": "2026-08-25",
+    "slug": "sociedad-conyugal-bienes-ecuador",
+    "excerpt": "Bienes propios vs. gananciales, capitulaciones matrimoniales y cómo se liquida la sociedad conyugal.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-04-14-sociedad-conyugal-bienes-ecuador.html",
+    "keyword": "sociedad conyugal bienes gananciales ecuador",
+    "category": "Derecho de Familia"
+  },
+  {
+    "title": "Patentes e Inventos en Ecuador: Cómo Proteger tu Idea Antes de Que Alguien Más lo Haga",
+    "date": "2026-08-27",
+    "slug": "patente-invento-modelo-utilidad-ecuador",
+    "excerpt": "Patente de invención vs. modelo de utilidad, requisitos, costos y proceso ante el SENADI.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-04-17-patente-invento-modelo-utilidad-ecuador.html",
+    "keyword": "patentar invento ecuador senadi",
+    "category": "Propiedad Intelectual"
+  },
+  {
+    "title": "Contrato de Servicios Profesionales: Diferencias con la Relación Laboral y Cómo Redactarlo",
+    "date": "2026-09-01",
+    "slug": "contrato-prestacion-servicios-profesionales-ecuador",
+    "excerpt": "Cuándo usar un contrato civil, riesgos de simulación laboral, cláusulas obligatorias y facturación al SRI.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-04-21-contrato-prestacion-servicios-profesionales-ecuador.html",
+    "keyword": "contrato servicios profesionales ecuador relacion laboral",
+    "category": "Derecho Civil"
+  },
+  {
+    "title": "Junta General de Accionistas en Ecuador: Convocatoria, Quórum y Acuerdos que Obligan a la Empresa",
+    "date": "2026-09-03",
+    "slug": "junta-general-accionistas-ecuador",
+    "excerpt": "Cómo convocar correctamente, quórum mínimo, qué resoluciones son impugnables y errores que anulan decisiones.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-04-24-junta-general-accionistas-ecuador.html",
+    "keyword": "junta general accionistas ecuador convocatoria quorum",
+    "category": "Derecho Societario"
+  },
+  {
+    "title": "Hábeas Corpus en Ecuador: Cuándo Usarlo para Liberar a Alguien Detenido Ilegalmente",
+    "date": "2026-09-08",
+    "slug": "habeas-corpus-detencion-ilegal-ecuador",
+    "excerpt": "Qué es el hábeas corpus, quién puede presentarlo, ante qué juez y qué sucede si la detención es ilegal.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-04-28-habeas-corpus-detencion-ilegal-ecuador.html",
+    "keyword": "habeas corpus ecuador detencion ilegal",
+    "category": "Derecho Constitucional"
+  },
+  {
+    "title": "Décimo Cuarto Sueldo 2026: Cuándo se Paga, Cómo se Calcula y Qué Hacer si No te lo Cancelan",
+    "date": "2026-09-10",
+    "slug": "decimo-cuarto-sueldo-ecuador-2026",
+    "excerpt": "Fechas de pago por región, fórmula de cálculo proporcional y pasos para reclamar ante la Inspectoría del Trabajo.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-05-05-decimo-cuarto-sueldo-ecuador-2026.html",
+    "keyword": "décimo cuarto sueldo ecuador 2026",
+    "category": "Derecho Laboral"
+  },
+  {
+    "title": "Unión de Hecho en Ecuador: Cómo Registrarla, Derechos que Genera y Diferencias con el Matrimonio",
+    "date": "2026-09-15",
+    "slug": "union-de-hecho-ecuador-registro-derechos",
+    "excerpt": "Requisitos de registro, sociedad de bienes, herencia, IESS y cómo terminarla legalmente.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-05-07-union-de-hecho-ecuador-registro-derechos.html",
+    "keyword": "union de hecho ecuador registro derechos",
+    "category": "Derecho de Familia"
+  },
+  {
+    "title": "Compraventa de Inmueble en Ecuador: Qué Revisar Antes de Firmar y Cómo Evitar Fraudes",
+    "date": "2026-09-17",
+    "slug": "compraventa-inmueble-ecuador-escritura-publica",
+    "excerpt": "Certificado de gravámenes, historial de dominio, proceso notarial, costos y riesgos de doble venta.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-05-12-compraventa-inmueble-ecuador-escritura-publica.html",
+    "keyword": "compraventa inmueble ecuador escritura publica",
+    "category": "Derecho Civil"
+  },
+  {
+    "title": "Violencia Intrafamiliar en Ecuador: Medidas de Protección de Urgencia y Cómo Activarlas",
+    "date": "2026-09-22",
+    "slug": "violencia-intrafamiliar-medidas-proteccion-ecuador",
+    "excerpt": "Tipos de violencia, boleta de auxilio, dónde denunciar y qué hace el juez en las primeras 48 horas.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-05-14-violencia-intrafamiliar-medidas-proteccion-ecuador.html",
+    "keyword": "violencia intrafamiliar medidas proteccion urgencia ecuador",
+    "category": "Derecho de Familia"
+  },
+  {
+    "title": "Representante Legal de una Empresa: Responsabilidades, Riesgos Personales y Cómo Protegerte en Ecuador",
+    "date": "2026-09-24",
+    "slug": "representante-legal-empresa-ecuador-responsabilidades",
+    "excerpt": "Qué puede firmar, cuándo responde con su patrimonio personal y cómo limitar su exposición legal.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-05-19-representante-legal-empresa-ecuador-responsabilidades.html",
+    "keyword": "representante legal empresa ecuador responsabilidades",
+    "category": "Derecho Societario"
+  },
+  {
+    "title": "Daño Moral en Ecuador: Cuándo Puedes Demandar, Qué Pruebas Necesitas y Cuánto Puedes Obtener",
+    "date": "2026-09-29",
+    "slug": "dano-moral-ecuador-demanda-indemnizacion",
+    "excerpt": "Art. 2232 Código Civil, tipos de afectación, prueba del daño y discrecionalidad judicial en el monto.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-05-21-dano-moral-ecuador-demanda-indemnizacion.html",
+    "keyword": "daño moral ecuador demanda indemnizacion",
+    "category": "Derecho Civil"
+  },
+  {
+    "title": "Jubilación Patronal en Ecuador: Quién Tiene Derecho, Cuándo Aplica y Cómo Calcularla",
+    "date": "2026-10-01",
+    "slug": "jubilacion-patronal-ecuador-requisitos-calculo",
+    "excerpt": "25 años con el mismo empleador, fórmula de cálculo, diferencia con la jubilación del IESS y cómo reclamarla.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-05-26-jubilacion-patronal-ecuador-requisitos-calculo.html",
+    "keyword": "jubilacion patronal ecuador requisitos calculo",
+    "category": "Derecho Laboral"
+  },
+  {
+    "title": "Reconocimiento de Hijo en Ecuador: Proceso Voluntario y Acción de Filiación Judicial",
+    "date": "2026-10-06",
+    "slug": "reconocimiento-hijo-extramatrimonial-ecuador",
+    "excerpt": "Cómo reconocer ante Registro Civil o Notaría, prueba de ADN, efectos legales y qué pasa si el padre se niega.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-05-28-reconocimiento-hijo-extramatrimonial-ecuador.html",
+    "keyword": "reconocimiento hijo extramatrimonial ecuador proceso",
+    "category": "Derecho de Familia"
+  },
+  {
+    "title": "Nulidad de Contrato en Ecuador: Causas, Diferencia con la Rescisión y Cómo Recuperar lo Pagado",
+    "date": "2026-10-08",
+    "slug": "nulidad-contrato-ecuador-causas-proceso",
+    "excerpt": "Nulidad absoluta vs. relativa, vicios del consentimiento, efectos y prescripción de la acción.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-06-02-nulidad-contrato-ecuador-causas-proceso.html",
+    "keyword": "nulidad contrato ecuador causas proceso",
+    "category": "Derecho Civil"
+  },
+  {
+    "title": "Contrato de Trabajo a Prueba en Ecuador: Derechos del Trabajador y Límites del Empleador",
+    "date": "2026-10-13",
+    "slug": "contrato-prueba-ecuador-derechos-trabajador",
+    "excerpt": "90 días máximo, derechos durante el período, IESS obligatorio y qué pasa si el empleador abusa del sistema.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-06-04-contrato-prueba-ecuador-derechos-trabajador.html",
+    "keyword": "contrato prueba ecuador derechos trabajador duracion",
+    "category": "Derecho Laboral"
+  },
+  {
+    "title": "Derechos de Autor en Ecuador: Cómo Registrar tu Obra y Qué Hacer ante un Plagio",
+    "date": "2026-10-15",
+    "slug": "derechos-autor-copyright-ecuador-registro-senadi",
+    "excerpt": "Código INGENIOS, registro ante SENADI, derechos morales vs. patrimoniales y acciones ante plagio digital.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-06-09-derechos-autor-copyright-ecuador-registro-senadi.html",
+    "keyword": "derechos de autor copyright ecuador registro senadi",
+    "category": "Propiedad Intelectual"
+  },
+  {
+    "title": "Préstamo entre Particulares en Ecuador: Cómo Documentarlo para que Tenga Validez Legal",
+    "date": "2026-10-20",
+    "slug": "prestamo-entre-particulares-documento-legal-ecuador",
+    "excerpt": "Pagaré vs. contrato de mutuo, interés máximo convencional, prescripción y cómo cobrar judicialmente.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-06-11-prestamo-entre-particulares-documento-legal-ecuador.html",
+    "keyword": "prestamo entre particulares documento legal ecuador",
+    "category": "Derecho Civil"
+  },
+  {
+    "title": "Acción de Hábeas Data en Ecuador: Cuándo Usarla para Proteger tus Datos Personales",
+    "date": "2026-10-22",
+    "slug": "habeas-data-ecuador-datos-personales-proteccion",
+    "excerpt": "Art. 92 Constitución, LOPDP 2021, centrales de riesgo, corrección de datos y diferencia con el derecho al olvido.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-06-16-habeas-data-ecuador-datos-personales-proteccion.html",
+    "keyword": "habeas data ecuador datos personales proteccion",
+    "category": "Derecho Constitucional"
+  },
+  {
+    "title": "Cómo Modificar los Estatutos de tu Empresa en Ecuador: Proceso, Costos y Errores Frecuentes",
+    "date": "2026-10-27",
+    "slug": "modificar-estatutos-empresa-ecuador-proceso-costos",
+    "excerpt": "Junta General, quórum, notaría, Superintendencia de Compañías y Registro Mercantil — paso a paso.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-06-18-modificar-estatutos-empresa-ecuador-proceso-costos.html",
+    "keyword": "modificar estatutos empresa ecuador proceso costos",
+    "category": "Derecho Societario"
+  },
+  {
+    "title": "Arrendamiento de Local Comercial en Ecuador: Diferencias con la Vivienda y Cláusulas Clave",
+    "date": "2026-10-29",
+    "slug": "arrendamiento-local-comercial-ecuador-clausulas",
+    "excerpt": "Por qué no aplica la Ley de Inquilinato, libertad contractual, cláusulas esenciales y desalojo comercial.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-06-23-arrendamiento-local-comercial-ecuador-clausulas.html",
+    "keyword": "arrendamiento local comercial ecuador contrato clausulas",
+    "category": "Derecho Civil"
+  },
+  {
+    "title": "Derechos del Consumidor en Ecuador: Cómo Reclamar ante la Defensoría del Pueblo",
+    "date": "2026-11-03",
+    "slug": "derechos-consumidor-ecuador-reclamacion-defensoria",
+    "excerpt": "LODC, garantía mínima legal, productos defectuosos, publicidad engañosa y proceso de reclamo gratuito.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-06-25-derechos-consumidor-ecuador-reclamacion-defensoria.html",
+    "keyword": "derechos consumidor ecuador reclamacion defensoria",
+    "category": "Derecho Civil"
+  },
+  {
+    "title": "Adopción en Ecuador: Requisitos, Etapas del Proceso Legal y Tiempos Reales",
+    "date": "2026-11-05",
+    "slug": "adopcion-ecuador-requisitos-proceso-tiempos",
+    "excerpt": "MIES, declaratoria de idoneidad, Comité de Asignación, período de adaptación y por qué no hay atajos legales.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-06-30-adopcion-ecuador-requisitos-proceso-tiempos.html",
+    "keyword": "adopcion ecuador requisitos proceso tiempos",
+    "category": "Derecho de Familia"
+  },
+  {
+    "title": "Despido Intempestivo en Ecuador: Cómo Calcular la Indemnización y Qué Hacer si te Despiden sin Causa",
+    "date": "2026-11-10",
+    "slug": "despido-intempestivo-ecuador-indemnizacion-calculo",
+    "excerpt": "Cómo se calcula la indemnización, qué rubros incluye, cuándo prescribe el reclamo y qué dice el Código del Trabajo si te despiden sin causa.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-07-02-despido-intempestivo-ecuador-indemnizacion-calculo.html",
+    "keyword": "despido intempestivo ecuador indemnizacion calculo",
+    "category": "Derecho Laboral"
+  },
+  {
+    "title": "Licencia de Maternidad y Paternidad en Ecuador: Días, Requisitos y Protección Laboral 2026",
+    "date": "2026-11-12",
+    "slug": "licencia-maternidad-paternidad-ecuador-derechos",
+    "excerpt": "Cuántos días corresponden, quién los paga, cómo solicitarlos y qué protección tiene la trabajadora embarazada según el Código del Trabajo.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-07-07-licencia-maternidad-paternidad-ecuador-derechos.html",
+    "keyword": "licencia maternidad paternidad ecuador derechos",
+    "category": "Derecho Laboral"
+  },
+  {
+    "title": "Testamento en Ecuador: Tipos, Requisitos y Cómo Hacer uno Válido ante Notario 2026",
+    "date": "2026-11-17",
+    "slug": "testamento-ecuador-tipos-requisitos-validez",
+    "excerpt": "Testamento abierto y cerrado, requisitos ante notario y por qué morir sin testar le complica todo a tu familia.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-07-09-testamento-ecuador-tipos-requisitos-validez.html",
+    "keyword": "testamento ecuador tipos requisitos validez",
+    "category": "Patrimonio"
+  },
+  {
+    "title": "Registro de Marca Comercial en Ecuador: Cómo Hacerlo en SENADI, Costos y Protección Legal 2026",
+    "date": "2026-11-19",
+    "slug": "marca-comercial-registro-senadi-ecuador-proteccion",
+    "excerpt": "Requisitos, costos y tiempos para registrar tu marca en SENADI, y qué pasa si alguien la usa antes que tú.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-07-14-marca-comercial-registro-senadi-ecuador-proteccion.html",
+    "keyword": "marca comercial registro senadi ecuador proteccion",
+    "category": "Propiedad Intelectual"
+  },
+  {
+    "title": "Juicio Ejecutivo en Ecuador: Cómo Cobrar Deudas con Pagarés y Cheques",
+    "date": "2026-11-24",
+    "slug": "juicio-ejecutivo-ecuador-cobro-pagares-cheques",
+    "excerpt": "Título ejecutivo, requisitos del pagaré y el cheque, plazos del proceso y cómo embargar bienes si la deuda no se paga.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-07-16-juicio-ejecutivo-ecuador-cobro-pagares-cheques.html",
+    "keyword": "juicio ejecutivo ecuador cobro pagares cheques",
+    "category": "Derecho Civil"
+  },
+  {
+    "title": "Permiso Notarial de Salida del País para Menores en Ecuador: Requisitos y Proceso 2026",
+    "date": "2026-11-26",
+    "slug": "permiso-notarial-salida-menor-ecuador-requisitos",
+    "excerpt": "Cuándo se necesita la autorización de ambos padres, qué hacer si uno se niega y cómo tramitarlo ante notario.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-07-21-permiso-notarial-salida-menor-ecuador-requisitos.html",
+    "keyword": "permiso notarial salida menor ecuador requisitos",
+    "category": "Derecho de Familia"
+  },
+  {
+    "title": "Contrato de Compraventa de Vehículo en Ecuador: Requisitos y Traspaso ANT 2026",
+    "date": "2026-12-01",
+    "slug": "contrato-compraventa-vehiculo-ecuador-requisitos-traspaso",
+    "excerpt": "Cláusulas que debe tener el contrato, documentos para el traspaso en la ANT y los errores que dejan el auto sin traspasar a tu nombre.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-07-25-contrato-compraventa-vehiculo-ecuador-requisitos-traspaso.html",
+    "keyword": "contrato compraventa vehiculo ecuador requisitos traspaso",
+    "category": "Derecho Civil"
+  },
+  {
+    "title": "Cómo Disolver y Liquidar una Empresa en Ecuador: Proceso Completo 2026",
+    "date": "2026-12-03",
+    "slug": "disolver-empresa-ecuador-liquidacion-cierre-superintendencia",
+    "excerpt": "Causales de disolución, proceso de liquidación ante la Superintendencia de Compañías y cómo evitar responsabilidad personal por deudas.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-07-30-disolver-empresa-ecuador-liquidacion-cierre-superintendencia.html",
+    "keyword": "disolver empresa ecuador liquidacion cierre superintendencia",
+    "category": "Derecho Societario"
+  }
 ]
