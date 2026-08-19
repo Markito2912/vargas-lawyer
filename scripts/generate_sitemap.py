@@ -38,7 +38,8 @@ STATIC = [
     ("abogados-en-santo-domingo.html", "weekly", "0.95"),
     ("abogados-en-la-concordia.html", "monthly", "0.8"),
     ("abogados-en-el-carmen.html", "monthly", "0.8"),
-    ("vargas-lawyers.html", "monthly", "0.7"),
+    # vargas-lawyers.html NO va: es copia de la home (mismo title y canonical)
+    # y vercel.json la redirige 301 a "/". Meterla seria contenido duplicado.
     ("calculadora-liquidacion.html", "monthly", "0.7"),
     ("blog.html", "weekly", "0.8"),
     ("politica-privacidad.html", "yearly", "0.3"),

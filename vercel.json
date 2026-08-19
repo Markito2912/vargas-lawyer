@@ -37,6 +37,11 @@
       "source": "/blogs",
       "destination": "/blog.html",
       "statusCode": 301
+    },
+    {
+      "source": "/vargas-lawyers.html",
+      "destination": "/",
+      "statusCode": 301
     }
   ],
   "headers": [
