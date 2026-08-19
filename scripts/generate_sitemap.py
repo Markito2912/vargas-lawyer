@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""Regenera sitemap.xml desde los archivos que EXISTEN en disco.
+"""Regenera sitemap.xml desde los archivos que EXISTEN y YA estan publicados.
 
-Reglas:
-- Solo entran URLs cuyo archivo existe (no se inventan URLs -> no mas 404 en GSC).
-- lastmod nunca puede ser fecha futura (Google descarta el sitemap si lo es).
-- Para blog/posts/, lastmod = fecha de publicacion del slug.
-- posts.json se usa solo como metadata; la fuente de verdad es el disco.
+Reglas (las tres causas de los 404 de Search Console):
+1. Solo entran URLs cuyo archivo existe en disco -> nunca un 404 en el sitemap.
+2. Solo entran posts cuyo data-publish-datetime en blog.html ya paso -> no se
+   anuncia a Google contenido que el sitio todavia oculta.
+3. lastmod nunca es fecha futura -> Google descarta un sitemap con lastmod futuro.
 
 Uso:  python scripts/generate_sitemap.py
+Correr SIEMPRE despues de publicar posts (o dejarlo en el post-deploy), porque
+el sitemap crece solo a medida que las fechas programadas van venciendo.
 """
 
 from __future__ import annotations
@@ -19,7 +21,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 BASE = "https://vargaslawyer.com"
-TODAY = dt.date.today().isoformat()
+NOW = dt.datetime.now(dt.timezone(dt.timedelta(hours=-5)))  # hora Ecuador
+TODAY = NOW.date().isoformat()
 
 # (ruta, changefreq, priority) — este orden es el orden del sitemap
 STATIC = [
@@ -41,11 +44,34 @@ STATIC = [
     ("politica-privacidad.html", "yearly", "0.3"),
 ]
 
-DATE_RE = re.compile(r"blog/posts/(\d{4}-\d{2}-\d{2})-")
+SLUG_DATE = re.compile(r"blog/posts/(\d{4}-\d{2}-\d{2})-")
+
+
+def schedule() -> dict[str, str]:
+    """{ruta relativa del post: data-publish-datetime} leido de blog.html."""
+    html = (ROOT / "blog.html").read_text(encoding="utf-8")
+    out: dict[str, str] = {}
+    for when, body in re.findall(
+        r'data-publish-datetime="([^"]+)"(.*?)</article>', html, re.S
+    ):
+        m = re.search(r'href="(blog[^"]+\.html)"', body)
+        if m:
+            out[m.group(1)] = when
+    return out
+
+
+def publicado(rel: str, agenda: dict[str, str]) -> bool:
+    """Un post sin fecha programada se considera ya publicado (los antiguos)."""
+    when = agenda.get(rel)
+    if not when:
+        return True
+    try:
+        return dt.datetime.fromisoformat(when) <= NOW
+    except ValueError:
+        return True
 
 
 def file_date(path: Path) -> str:
-    """Fecha de modificacion del archivo, topada a hoy."""
     return min(dt.date.fromtimestamp(path.stat().st_mtime).isoformat(), TODAY)
 
 
@@ -61,22 +87,23 @@ def entry(loc: str, lastmod: str, changefreq: str, priority: str) -> str:
 
 
 def main() -> int:
+    agenda = schedule()
     out = [
         '<?xml version="1.0" encoding="UTF-8"?>\n',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n',
     ]
     seen: set[str] = set()
-    skipped: list[str] = []
+    ausentes: list[str] = []
+    programados: list[tuple[str, str]] = []
 
     out.append("  <!-- PAGINAS PRINCIPALES -->\n")
     for rel, freq, prio in STATIC:
         path = ROOT / (rel or "index.html")
         if not path.is_file():
-            skipped.append(rel or "index.html")
+            ausentes.append(rel or "index.html")
             continue
-        loc = f"{BASE}/{rel}"
-        out.append(entry(loc, file_date(path), freq, prio))
-        seen.add(loc)
+        out.append(entry(f"{BASE}/{rel}", file_date(path), freq, prio))
+        seen.add(f"{BASE}/{rel}")
 
     meta = {
         p["url"].replace(f"{BASE}/", ""): p
@@ -86,13 +113,16 @@ def main() -> int:
     legacy = sorted(ROOT.glob("blog-*.html"))
     dated = sorted((ROOT / "blog" / "posts").glob("*.html"), key=lambda p: p.name)
 
-    out.append("\n  <!-- ARTICULOS DE BLOG -->\n")
+    out.append("\n  <!-- ARTICULOS DE BLOG PUBLICADOS -->\n")
     for path in legacy + dated:
         rel = path.relative_to(ROOT).as_posix()
         loc = f"{BASE}/{rel}"
         if loc in seen:
             continue
-        m = DATE_RE.match(rel)
+        if not publicado(rel, agenda):
+            programados.append((agenda[rel][:10], rel))
+            continue
+        m = SLUG_DATE.match(rel)
         if m:
             lastmod = min(m.group(1), TODAY)
         elif rel in meta and meta[rel].get("date"):
@@ -105,15 +135,20 @@ def main() -> int:
     out.append("</urlset>\n")
     (ROOT / "sitemap.xml").write_text("".join(out), encoding="utf-8")
 
-    print(f"sitemap.xml: {len(seen)} URLs (todas verificadas en disco)")
-
+    print(f"sitemap.xml: {len(seen)} URLs publicadas y verificadas en disco")
+    if programados:
+        programados.sort()
+        print(f"\nFUERA del sitemap por estar programados a futuro ({len(programados)}):")
+        for when, rel in programados:
+            print(f"  {when}  {rel}")
+        print("  -> entran solos al volver a correr este script tras cada publicacion")
     fantasmas = sorted(r for r in meta if not (ROOT / r).is_file())
     if fantasmas:
-        print(f"AVISO - posts.json apunta a archivos inexistentes ({len(fantasmas)}):")
+        print(f"\nAVISO - posts.json apunta a archivos inexistentes ({len(fantasmas)}):")
         for r in fantasmas:
             print(f"  - {r}")
-    if skipped:
-        print(f"AVISO - paginas estaticas ausentes ({len(skipped)}): {skipped}")
+    if ausentes:
+        print(f"\nAVISO - paginas estaticas ausentes: {ausentes}")
     return 0
 
 
