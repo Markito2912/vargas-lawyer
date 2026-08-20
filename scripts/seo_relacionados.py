@@ -256,6 +256,9 @@ for f, claves in RELACIONADOS.items():
     if not elegidos:
         cambios.append(('sin-posts-publicados', f))
         continue
+    # la grilla es de 3 columnas: 4 o 5 tarjetas dejan la fila coja
+    if len(elegidos) > 3:
+        elegidos = elegidos[:6 if len(elegidos) >= 6 else 3]
     bloque = (
         '\n    <section id="articulos-relacionados" class="services" style="padding:80px 0">\n'
         '        <div class="container">\n'
