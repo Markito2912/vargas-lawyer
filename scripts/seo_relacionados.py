@@ -200,8 +200,44 @@ for rel, bloques in JSONLD.items():
     cambios.append(('json-ld', rel))
 
 # ---------- 2. Bloque de articulos relacionados ----------
-CSS = ('margin:0 0 12px;font-size:1rem;font-weight:600;'
-       'color:var(--color-primary,#0b2545)')
+# Reusa las clases del propio sitio (services-grid / service-card / service-title /
+# service-description / service-link) para que herede el diseno en vez de
+# inventar estilos sueltos.
+MAX_TARJETAS = 6
+KICKER = ('margin:0 0 12px;font-size:.75rem;font-weight:700;letter-spacing:.08em;'
+          'text-transform:uppercase;color:var(--color-primary)')
+
+META = {}
+try:
+    for e in json.loads((ROOT / 'blog' / 'posts.json').read_text(encoding='utf-8')):
+        META[e['url'].replace(BASE + '/', '')] = e
+except Exception:
+    pass
+
+
+def recorta(t, n=130):
+    if len(t) <= n:
+        return t
+    return t[:n].rsplit(' ', 1)[0].rstrip('.,;:') + '…'
+
+
+def tarjeta(rel, titulo):
+    e = META.get(rel, {})
+    cat = e.get('category') or 'Guía legal'
+    resumen = recorta(e.get('excerpt') or '')
+    partes = [
+        '                <article class="service-card">',
+        '                    <p style="%s">%s</p>' % (KICKER, cat),
+        '                    <h3 class="service-title"><a href="%s" style="color:inherit">%s</a></h3>'
+        % (rel, titulo),
+    ]
+    if resumen:
+        partes.append('                    <p class="service-description">%s</p>' % resumen)
+    partes.append('                    <a class="service-link" href="%s">Leer la guía '
+                  '<span aria-hidden="true">&rarr;</span></a>' % rel)
+    partes.append('                </article>')
+    return '\n'.join(partes)
+
 
 for f, claves in RELACIONADOS.items():
     p = ROOT / f
@@ -211,6 +247,8 @@ for f, claves in RELACIONADOS.items():
                s, flags=re.S)
     elegidos = []
     for k in claves:
+        if len(elegidos) >= MAX_TARJETAS:
+            break
         for rel, tit in POSTS.items():
             if k in rel and rel not in [e[0] for e in elegidos]:
                 elegidos.append((rel, tit))
@@ -218,22 +256,19 @@ for f, claves in RELACIONADOS.items():
     if not elegidos:
         cambios.append(('sin-posts-publicados', f))
         continue
-    lis = '\n'.join(
-        '                    <li style="margin:0 0 10px"><a href="%s" style="color:inherit;text-decoration:none;border-bottom:1px solid currentColor">%s</a></li>'
-        % (rel, tit) for rel, tit in elegidos)
     bloque = (
-        '\n    <section id="articulos-relacionados" style="padding:64px 0;background:var(--color-surface,#f6f8fa)">\n'
+        '\n    <section id="articulos-relacionados" class="services" style="padding:80px 0">\n'
         '        <div class="container">\n'
         '            <div class="section-header">\n'
         '                <h2 class="section-title">Guías relacionadas</h2>\n'
         '                <p class="section-subtitle">Artículos prácticos sobre este tema, escritos por nuestro equipo.</p>\n'
         '            </div>\n'
-        '            <nav aria-label="Artículos relacionados">\n'
-        '                <ul style="list-style:none;padding:0;margin:0;columns:2;column-gap:48px">\n'
-        + lis + '\n'
-        '                </ul>\n'
-        '            </nav>\n'
-        '            <p style="margin-top:24px"><a href="blog.html" style="font-weight:600">Ver todo el blog legal &rarr;</a></p>\n'
+        '            <div class="services-grid">\n'
+        + '\n\n'.join(tarjeta(rel, tit) for rel, tit in elegidos) + '\n'
+        '            </div>\n'
+        '            <p style="text-align:center;margin-top:48px">'
+        '<a class="service-link" href="blog.html">Ver todo el blog legal '
+        '<span aria-hidden="true">&rarr;</span></a></p>\n'
         '        </div>\n'
         '    </section>\n')
     m = re.search(r'\n\s*<footer', s, re.I)
