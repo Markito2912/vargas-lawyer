@@ -130,6 +130,31 @@ def main() -> int:
     bloque('SITEMAP: pagina redirigida incluida',
            [u for u in locs if u.replace(BASE + '/', '') in REDIRIGIDAS])
 
+    # enlaces internos: que el destino exista de verdad en disco
+    raiz = ROOT.resolve()
+    # rutas que existen solo como redirect en vercel.json, no como archivo
+    solo_redirect = REDIRIGIDAS | {'blog', 'blog/posts', 'blogs'}
+    rotos = []
+    for p in paginas():
+        s = p.read_text(encoding='utf-8', errors='replace')
+        for h in re.findall(r'(?:href|src)="([^"]+)"', s):
+            if h.startswith(('http', 'mailto:', 'tel:', '#', '//', 'data:', 'javascript:')):
+                continue
+            limpio = h.split('#')[0].split('?')[0]
+            if not limpio or limpio == '/':
+                continue
+            try:
+                destino = (p.resolve().parent / limpio).resolve()
+                rel_destino = destino.relative_to(raiz).as_posix()
+            except Exception:
+                rotos.append('%s -> %s  (fuera del repo)' % (p.relative_to(ROOT).as_posix(), h))
+                continue
+            if rel_destino in solo_redirect:
+                continue
+            if not destino.is_file():
+                rotos.append('%s -> %s' % (p.relative_to(ROOT).as_posix(), h))
+    bloque('ENLACES INTERNOS ROTOS', sorted(set(rotos)))
+
     print('\n%d paginas auditadas | sitemap con %d URLs' % (len(filas), len(locs)))
     if problemas:
         print('%d problemas -> NO deployar hasta corregirlos' % problemas)
