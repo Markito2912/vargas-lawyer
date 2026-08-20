@@ -1,5 +1,14 @@
 [
   {
+    "title": "Disolución y Liquidación de Compañías en Ecuador",
+    "date": "2026-01-01",
+    "slug": "liquidacion-companias-ecuador",
+    "excerpt": "Guía experta sobre la disolución, liquidación y cancelación de compañías en Ecuador. Evita responsabilidades legales y multas al cerrar tu empresa.",
+    "url": "https://vargaslawyer.com/blog-liquidacion-companias-ecuador.html",
+    "keyword": "disolución de compañías ecuador",
+    "category": "Derecho Societario"
+  },
+  {
     "title": "Guía Completa: Conflictos Civiles en Santo Domingo",
     "date": "2026-01-15",
     "slug": "derecho-civil-santo-domingo",
@@ -63,13 +72,13 @@
     "category": "Derecho Civil"
   },
   {
-    "title": "Pensión Alimenticia en Ecuador: Cómo se Calcula y Qué Hacer si No la Pagan",
+    "title": "Acta de Finiquito en Ecuador: Qué Revisar Antes de Firmar",
     "date": "2026-02-19",
-    "slug": "pension-alimenticia-ecuador",
-    "excerpt": "Tabla oficial 2025, proceso judicial paso a paso y qué hacer cuando el obligado no paga. Guía práctica con checklist y FAQ.",
-    "url": "https://vargaslawyer.com/blog-pension-alimenticia-ecuador.html",
-    "keyword": "pension alimenticia ecuador como calcular",
-    "category": "Derecho de Familia"
+    "slug": "acta-finiquito-ecuador-que-revisar",
+    "excerpt": "Qué revisar en el acta de finiquito antes de firmar en Ecuador: rubros obligatorios, errores comunes, cálculo de liquidación y cuándo no firmar. Guía práctica 2025.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-02-19-acta-finiquito-ecuador-que-revisar.html",
+    "keyword": "acta de finiquito ecuador",
+    "category": "Derecho Laboral"
   },
   {
     "title": "Inquilinato: ¿Cómo sacar legalmente a un arrendatario que no paga?",
@@ -81,6 +90,15 @@
     "category": "Derecho Civil"
   },
   {
+    "title": "Pensión Alimenticia en Ecuador: Cómo se Calcula y Qué Hacer si No la Pagan",
+    "date": "2026-02-19",
+    "slug": "pension-alimenticia-ecuador",
+    "excerpt": "Tabla oficial 2025, proceso judicial paso a paso y qué hacer cuando el obligado no paga. Guía práctica con checklist y FAQ.",
+    "url": "https://vargaslawyer.com/blog-pension-alimenticia-ecuador.html",
+    "keyword": "pension alimenticia ecuador como calcular",
+    "category": "Derecho de Familia"
+  },
+  {
     "title": "Derecho Constitucional: Qué es una Acción de Protección y cuándo puede salvar tu negocio",
     "date": "2026-02-23",
     "slug": "accion-proteccion-constitucional",
@@ -88,6 +106,24 @@
     "url": "https://vargaslawyer.com/blog-accion-proteccion-constitucional.html",
     "keyword": "accion de proteccion ecuador",
     "category": "Derecho Constitucional"
+  },
+  {
+    "title": "Requisitos para Demandar Pensión Alimenticia en Ecuador 2025",
+    "date": "2026-02-23",
+    "slug": "pension-alimenticia-requisitos-ecuador",
+    "excerpt": "Requisitos para demandar pensión alimenticia en Ecuador 2025: documentos, proceso paso a paso, pensión provisional y qué hacer si el obligado dice no tener ingresos.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-02-23-pension-alimenticia-requisitos-ecuador.html",
+    "keyword": "requisitos pension alimenticia ecuador",
+    "category": "Derecho de Familia"
+  },
+  {
+    "title": "Divorcio en Ecuador: Cuánto Demora y Cuánto Cuesta en 2025",
+    "date": "2026-02-26",
+    "slug": "divorcio-ecuador-tiempos-costos",
+    "excerpt": "Divorcio en Ecuador: cuánto demora y cuánto cuesta en 2025. Diferencias entre divorcio notarial y judicial, documentos necesarios y errores que alargan el proceso.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-02-26-divorcio-ecuador-tiempos-costos.html",
+    "keyword": "divorcio ecuador cuanto demora",
+    "category": "Derecho de Familia"
   },
   {
     "title": "Cómo registrar tu marca en el SENADI y por qué es peligroso no hacerlo",
@@ -108,6 +144,24 @@
     "category": "Derecho de Familia"
   },
   {
+    "title": "Tenencia y Régimen de Visitas en Ecuador: Cómo se Decide",
+    "date": "2026-03-02",
+    "slug": "tenencia-regimen-visitas-ecuador",
+    "excerpt": "Tenencia y régimen de visitas en Ecuador: cómo se decide la custodia, qué factores evalúa el juez, y cómo funciona el régimen de visitas cuando los padres.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-03-02-tenencia-regimen-visitas-ecuador.html",
+    "keyword": "tenencia hijos ecuador",
+    "category": "Derecho de Familia"
+  },
+  {
+    "title": "Contrato de Arriendo en Ecuador: Cláusulas Esenciales",
+    "date": "2026-03-05",
+    "slug": "contrato-arriendo-ecuador-clausulas",
+    "excerpt": "Cláusulas esenciales del contrato de arriendo en Ecuador 2025: qué debe incluir, qué cláusulas son ilegales, y cómo protegerte como arrendador o arrendatario.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-03-05-contrato-arriendo-ecuador-clausulas.html",
+    "keyword": "contrato de arriendo ecuador clausulas",
+    "category": "Inquilinato"
+  },
+  {
     "title": "Responsabilidad Médica: ¿Qué hacer ante un caso de negligencia en Ecuador?",
     "date": "2026-03-05",
     "slug": "responsabilidad-medica-ecuador",
@@ -115,6 +169,69 @@
     "url": "https://vargaslawyer.com/blog-responsabilidad-medica-ecuador.html",
     "keyword": "responsabilidad medica ecuador negligencia",
     "category": "Derecho Civil"
+  },
+  {
+    "title": "Cómo Reclamar Horas Extra No Pagadas en Ecuador 2025",
+    "date": "2026-03-09",
+    "slug": "reclamar-horas-extra-ecuador",
+    "excerpt": "Cómo reclamar horas extra no pagadas en Ecuador 2025: cálculo legal, pruebas necesarias, proceso ante el Ministerio del Trabajo y cuándo demandar al empleador.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-03-09-reclamar-horas-extra-ecuador.html",
+    "keyword": "reclamar horas extra ecuador",
+    "category": "Derecho Laboral"
+  },
+  {
+    "title": "Vacaciones No Pagadas en Ecuador: Cómo Calcularlas",
+    "date": "2026-03-12",
+    "slug": "vacaciones-no-pagadas-ecuador",
+    "excerpt": "Vacaciones no pagadas en Ecuador: cómo calcular lo que te deben, cómo reclamarlas y qué hacer si el empleador se niega a pagarlas al terminar el contrato.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-03-12-vacaciones-no-pagadas-ecuador.html",
+    "keyword": "vacaciones no pagadas ecuador",
+    "category": "Derecho Laboral"
+  },
+  {
+    "title": "Incumplimiento de Contrato en Ecuador: Pruebas y Cómo Demandar",
+    "date": "2026-03-16",
+    "slug": "incumplimiento-contrato-ecuador-pruebas",
+    "excerpt": "Incumplimiento de contrato en Ecuador: qué pruebas necesitas, cómo documentar el incumplimiento y cuándo demandar.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-03-16-incumplimiento-contrato-ecuador-pruebas.html",
+    "keyword": "incumplimiento contrato ecuador pruebas",
+    "category": "Derecho Civil"
+  },
+  {
+    "title": "Prescripción de Deudas en Ecuador: Cuándo Prescriben",
+    "date": "2026-03-19",
+    "slug": "prescripcion-deudas-ecuador",
+    "excerpt": "Prescripción de deudas en Ecuador: cuándo prescribe una deuda, qué plazos aplican según el tipo de obligación, y cómo interrumpir o aprovechar la prescripción.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-03-19-prescripcion-deudas-ecuador.html",
+    "keyword": "prescripcion deudas ecuador",
+    "category": "Derecho Civil"
+  },
+  {
+    "title": "Pensión Alimenticia Atrasada: Cobro y Apremio en Ecuador",
+    "date": "2026-03-23",
+    "slug": "pension-alimenticia-atrasada-ecuador",
+    "excerpt": "Pensión alimenticia atrasada en Ecuador: cómo cobrar, cálculo de intereses, apremio personal (prisión) y qué hacer si no tienes dinero para pagar.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-03-23-pension-alimenticia-atrasada-ecuador.html",
+    "keyword": "pension alimenticia atrasada ecuador",
+    "category": "Derecho de Familia"
+  },
+  {
+    "title": "Mediación en Ecuador: Cuándo Conviene y Cómo Funciona",
+    "date": "2026-03-26",
+    "slug": "mediacion-ecuador-cuando-conviene",
+    "excerpt": "Mediación en Ecuador: cuándo conviene, cómo funciona el proceso, cuánto cuesta y en qué casos es más efectiva que ir a juicio. Guía práctica 2025.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-03-26-mediacion-ecuador-cuando-conviene.html",
+    "keyword": "mediacion ecuador",
+    "category": "Derecho Civil"
+  },
+  {
+    "title": "Cómo Constituir una Empresa en Ecuador 2025: Pasos y Costos",
+    "date": "2026-03-30",
+    "slug": "constituir-empresa-ecuador-pasos",
+    "excerpt": "Cómo constituir una empresa en Ecuador 2025: tipos de empresa, pasos para la constitución, costos reales, tiempo y errores que retrasan el proceso.",
+    "url": "https://vargaslawyer.com/blog/posts/2026-03-30-constituir-empresa-ecuador-pasos.html",
+    "keyword": "constituir empresa ecuador",
+    "category": "Derecho Societario"
   },
   {
     "title": "Usucapión en Ecuador: Cómo Convertirte en Propietario Legal de un Terreno que Has Poseído por Años",
