@@ -1,0 +1,30 @@
+# Cola de solicitudes de indexacion en Search Console
+# Google acepta ~11 al dia. Pedir de arriba hacia abajo y borrar las hechas.
+# Ya pedidas: 19 ago (8) y 24 ago (11) — ver el skill vargas-lawyers.
+
+https://vargaslawyer.com/constitucional.html
+https://vargaslawyer.com/inquilinato.html
+https://vargaslawyer.com/notarial.html
+https://vargaslawyer.com/politica-privacidad.html
+https://vargaslawyer.com/propiedad-intelectual.html
+https://vargaslawyer.com/blog-accion-proteccion-constitucional.html
+https://vargaslawyer.com/blog-cobro-letra-cambio-pagare.html
+https://vargaslawyer.com/blog-divorcio-notarial-ecuador.html
+https://vargaslawyer.com/blog-herencias-posesion-efectiva.html
+https://vargaslawyer.com/blog-herencias-testamentos-ecuador.html
+https://vargaslawyer.com/blog-liquidacion-companias-ecuador.html
+https://vargaslawyer.com/blog-pymes-blindaje-legal.html
+https://vargaslawyer.com/blog-registro-marca-senadi.html
+https://vargaslawyer.com/blog-responsabilidad-medica-ecuador.html
+https://vargaslawyer.com/blog/posts/2026-02-19-acta-finiquito-ecuador-que-revisar.html
+https://vargaslawyer.com/blog/posts/2026-03-02-tenencia-regimen-visitas-ecuador.html
+https://vargaslawyer.com/blog/posts/2026-03-05-contrato-arriendo-ecuador-clausulas.html
+https://vargaslawyer.com/blog/posts/2026-03-09-reclamar-horas-extra-ecuador.html
+https://vargaslawyer.com/blog/posts/2026-03-12-vacaciones-no-pagadas-ecuador.html
+https://vargaslawyer.com/blog/posts/2026-03-16-incumplimiento-contrato-ecuador-pruebas.html
+https://vargaslawyer.com/blog/posts/2026-03-19-prescripcion-deudas-ecuador.html
+https://vargaslawyer.com/blog/posts/2026-03-23-pension-alimenticia-atrasada-ecuador.html
+https://vargaslawyer.com/blog/posts/2026-03-26-mediacion-ecuador-cuando-conviene.html
+https://vargaslawyer.com/blog/posts/2026-03-30-constituir-empresa-ecuador-pasos.html
+https://vargaslawyer.com/blog/posts/2026-04-03-usucapion-prescripcion-adquisitiva-ecuador.html
+https://vargaslawyer.com/blog/posts/2026-04-07-acoso-laboral-ecuador-que-hacer.html
