@@ -129,6 +129,11 @@ def main() -> int:
            ['x%d  %s' % (c, u) for u, c in collections.Counter(locs).items() if c > 1])
     bloque('SITEMAP: pagina redirigida incluida',
            [u for u in locs if u.replace(BASE + '/', '') in REDIRIGIDAS])
+    # el sitemap dice "indexa esto" y la pagina dice "no me indexes": Search
+    # Console lo reporta como "Excluida por la etiqueta noindex"
+    noindex = {f['rel'] for f in filas if 'noindex' in (f['robots'] or '')}
+    bloque('SITEMAP: pagina con noindex incluida',
+           [u for u in locs if (u.replace(BASE + '/', '') or 'index.html') in noindex])
 
     # enlaces internos: que el destino exista de verdad en disco
     raiz = ROOT.resolve()

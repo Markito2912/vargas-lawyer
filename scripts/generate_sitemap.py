@@ -42,7 +42,9 @@ STATIC = [
     # y vercel.json la redirige 301 a "/". Meterla seria contenido duplicado.
     ("calculadora-liquidacion.html", "monthly", "0.7"),
     ("blog.html", "weekly", "0.8"),
-    ("politica-privacidad.html", "yearly", "0.3"),
+    # politica-privacidad.html NO va: lleva <meta robots="noindex">. Anunciarla
+    # en el sitemap y bloquearla en la pagina es contradictorio y Search Console
+    # lo reporta como "Excluida por la etiqueta noindex".
 ]
 
 SLUG_DATE = re.compile(r"blog/posts/(\d{4}-\d{2}-\d{2})-")
