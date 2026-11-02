@@ -1642,6 +1642,14 @@
 
         // Sistema de publicación programada (soporta data-publish-datetime con hora exacta y data-publish-date legacy)
         document.addEventListener('DOMContentLoaded', function () {
+            // Más reciente primero: reordena las tarjetas por fecha de publicación
+            const grid = document.getElementById('blogGrid');
+            const fechaDe = card => new Date(card.getAttribute('data-publish-datetime') ||
+                (card.getAttribute('data-publish-date') + 'T00:00:00-05:00')).getTime();
+            [...grid.querySelectorAll('.blog-card')]
+                .sort((a, b) => fechaDe(b) - fechaDe(a))
+                .forEach(card => grid.appendChild(card));
+
             const now = new Date();
             const todayMidnight = new Date();
             todayMidnight.setHours(0, 0, 0, 0);
