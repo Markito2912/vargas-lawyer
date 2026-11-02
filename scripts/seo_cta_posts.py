@@ -16,6 +16,7 @@ from __future__ import annotations
 import io
 import pathlib
 import re
+from urllib.parse import quote
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 MARCA = 'cta-servicio'
@@ -71,6 +72,14 @@ def servicio_de(rel):
 
 def bloque(prefijo, pagina, etiqueta, rel):
     """prefijo: '' para posts en la raiz, '../../' para blog/posts/."""
+    # El tema del mensaje de WhatsApp sale del H1 del post (con tildes, legible).
+    html = (ROOT / rel).read_bytes().decode('utf-8')
+    h1 = re.search(r'<h1[^>]*>(.*?)</h1>', html, re.S)
+    tema = re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', h1.group(1))).strip()[:90] if h1 else etiqueta
+
+    whatsapp_message = f"Hola, leí su guía «{tema}» en vargaslawyer.com y quiero consultar mi caso: "
+    whatsapp_url = 'https://wa.me/593985899525?text=' + quote(whatsapp_message)
+
     return (
         '\n    <section class="%s" style="padding:64px 0;background:#0d1420">\n'
         '        <div class="container" style="max-width:820px">\n'
@@ -80,14 +89,14 @@ def bloque(prefijo, pagina, etiqueta, rel):
         '            <h2 style="font-family:var(--font-heading);font-size:1.75rem;'
         'margin:0 0 16px">%s en Santo Domingo</h2>\n'
         '            <p style="margin:0 0 24px;line-height:1.7;opacity:.85">%s</p>\n'
-        '            <p style="margin:0"><a class="service-link" href="%s%s" '
-        'style="font-weight:600">Ver %s <span aria-hidden="true">&rarr;</span></a>'
+        '            <p style="margin:0"><a class="service-link" href="%s" target="_blank" '
+        'data-cta="post" data-area="%s" style="font-weight:600">'
+        'Consultar por WhatsApp <span aria-hidden="true">&rarr;</span></a>'
         '<span style="opacity:.4;margin:0 14px">·</span>'
-        '<a class="service-link" href="%sindex.html#contacto" style="font-weight:600">'
-        'Agenda una consulta <span aria-hidden="true">&rarr;</span></a></p>\n'
+        '<a class="service-link" href="%s%s" style="font-weight:600">Ver %s <span aria-hidden="true">&rarr;</span></a></p>\n'
         '        </div>\n'
         '    </section>\n'
-    ) % (MARCA, etiqueta, FRASE[pagina], prefijo, pagina, etiqueta.lower(), prefijo)
+    ) % (MARCA, etiqueta, FRASE[pagina], whatsapp_url, etiqueta, prefijo, pagina, etiqueta.lower())
 
 
 def main() -> int:

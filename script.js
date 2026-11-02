@@ -99,35 +99,50 @@ if (contactForm) {
             const formData = new FormData(contactForm);
             const data = Object.fromEntries(formData);
 
-            // Here you would typically send the data to a server
-            // console.log('Form submitted:', data);
+            // Validar campos requeridos
+            if (!data.name || !data.phone || !data.message) {
+                alert('Por favor complete todos los campos requeridos.');
+                return;
+            }
 
-            // Show success message
-            alert('¡Gracias por contactarnos! Nos pondremos en contacto con usted dentro de 24 horas.');
+            // Obtener el área seleccionada
+            const serviceLabels = {
+                'civil': 'Derecho Civil',
+                'societario': 'Derecho Societario',
+                'constitucional': 'Derecho Constitucional',
+                'laboral': 'Derecho Laboral',
+                'familia': 'Derecho de Familia',
+                'propiedad-intelectual': 'Propiedad Intelectual',
+                'inquilinato': 'Inquilinato',
+                'notarial': 'Servicios Notariales',
+                'otro': 'Otro'
+            };
+
+            const areaLabel = data.service ? serviceLabels[data.service] || data.service : 'Consulta general';
+
+            // Componer mensaje para WhatsApp
+            let whatsappMessage = `Hola, vengo de vargaslawyer.com. `;
+            whatsappMessage += `\n\nNombre: ${data.name}`;
+            if (data.email) {
+                whatsappMessage += `\nEmail: ${data.email}`;
+            }
+            whatsappMessage += `\nTeléfono: ${data.phone}`;
+            whatsappMessage += `\nÁrea: ${areaLabel}`;
+            whatsappMessage += `\n\nMi caso:\n${data.message}`;
+
+            // Abrir WhatsApp en nueva pestaña
+            const whatsappUrl = `https://wa.me/593985899525?text=${encodeURIComponent(whatsappMessage)}`;
+            window.open(whatsappUrl, '_blank');
+
+            // Mostrar mensaje de confirmación
+            alert('Se abrió WhatsApp con su consulta. Si no se abrió automáticamente, escríbanos al +593 98 589 9525');
 
             // Reset form
             contactForm.reset();
 
-            // In a real application, you would send this to your backend:
-            /*
-            fetch('/api/contact', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(data),
-            })
-            .then(response => response.json())
-            .then(data => {
-                alert('¡Gracias por contactarnos!');
-                contactForm.reset();
-            })
-            .catch((error) => {
-                alert('Hubo un error al enviar el formulario. Por favor intente nuevamente.');
-            });
-            */
         } catch (error) {
-            alert('Error al procesar el formulario.');
+            alert('Error al procesar el formulario. Por favor intente nuevamente.');
+            console.error('Form error:', error);
         }
     });
 }

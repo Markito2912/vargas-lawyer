@@ -16,7 +16,7 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 BASE = 'https://vargaslawyer.com'
-IGNORAR = {'services-clean.html', 'services-section.html'}
+IGNORAR = set()
 # copia de la home: redirige 301 a "/" en vercel.json, por eso no se audita
 REDIRIGIDAS = {'vargas-lawyers.html'}
 

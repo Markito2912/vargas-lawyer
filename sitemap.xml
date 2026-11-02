@@ -3,85 +3,85 @@
   <!-- PAGINAS PRINCIPALES -->
   <url>
     <loc>https://vargaslawyer.com/</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://vargaslawyer.com/societario.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://vargaslawyer.com/laboral.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://vargaslawyer.com/civil.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://vargaslawyer.com/familia.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://vargaslawyer.com/constitucional.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://vargaslawyer.com/propiedad-intelectual.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://vargaslawyer.com/inquilinato.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://vargaslawyer.com/notarial.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://vargaslawyer.com/abogados-en-santo-domingo.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://vargaslawyer.com/abogados-en-la-concordia.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://vargaslawyer.com/abogados-en-el-carmen.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://vargaslawyer.com/calculadora-liquidacion.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://vargaslawyer.com/blog.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -288,6 +288,96 @@
   <url>
     <loc>https://vargaslawyer.com/blog/posts/2026-04-28-habeas-corpus-detencion-ilegal-ecuador.html</loc>
     <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vargaslawyer.com/blog/posts/2026-05-05-decimo-cuarto-sueldo-ecuador-2026.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vargaslawyer.com/blog/posts/2026-05-07-union-de-hecho-ecuador-registro-derechos.html</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vargaslawyer.com/blog/posts/2026-05-12-compraventa-inmueble-ecuador-escritura-publica.html</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vargaslawyer.com/blog/posts/2026-05-14-violencia-intrafamiliar-medidas-proteccion-ecuador.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vargaslawyer.com/blog/posts/2026-05-19-representante-legal-empresa-ecuador-responsabilidades.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vargaslawyer.com/blog/posts/2026-05-21-dano-moral-ecuador-demanda-indemnizacion.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vargaslawyer.com/blog/posts/2026-05-26-jubilacion-patronal-ecuador-requisitos-calculo.html</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vargaslawyer.com/blog/posts/2026-05-28-reconocimiento-hijo-extramatrimonial-ecuador.html</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vargaslawyer.com/blog/posts/2026-06-02-nulidad-contrato-ecuador-causas-proceso.html</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vargaslawyer.com/blog/posts/2026-06-04-contrato-prueba-ecuador-derechos-trabajador.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vargaslawyer.com/blog/posts/2026-06-09-derechos-autor-copyright-ecuador-registro-senadi.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vargaslawyer.com/blog/posts/2026-06-11-prestamo-entre-particulares-documento-legal-ecuador.html</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vargaslawyer.com/blog/posts/2026-06-16-habeas-data-ecuador-datos-personales-proteccion.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vargaslawyer.com/blog/posts/2026-06-18-modificar-estatutos-empresa-ecuador-proceso-costos.html</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vargaslawyer.com/blog/posts/2026-06-23-arrendamiento-local-comercial-ecuador-clausulas.html</loc>
+    <lastmod>2026-06-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
