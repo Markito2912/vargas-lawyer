@@ -33,7 +33,7 @@ AREAS = {
     "herencias-posesion-efectiva-santo-domingo.html": "herencias",
     "contratos-arriendos-santo-domingo.html": "contratos y arriendos",
 }
-SANTO_DOMINGO_GEO = ("-0.252000", "-79.174000")
+SANTO_DOMINGO_GEO = ("-0.264789", "-79.171237")  # la de la ficha de Google Business
 
 ICON_PHONE = ('<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">'
               '<path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83'
