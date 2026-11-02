@@ -28,6 +28,10 @@ AREAS = {
     "abogados-en-la-concordia.html": "La Concordia",
     "abogados-en-el-carmen.html": "El Carmen",
     "calculadora-liquidacion.html": "liquidación laboral",
+    "cobro-de-deudas-santo-domingo.html": "cobro de deudas",
+    "legalizacion-terrenos-santo-domingo.html": "legalización de terrenos",
+    "herencias-posesion-efectiva-santo-domingo.html": "herencias",
+    "contratos-arriendos-santo-domingo.html": "contratos y arriendos",
 }
 SANTO_DOMINGO_GEO = ("-0.252000", "-79.174000")
 
