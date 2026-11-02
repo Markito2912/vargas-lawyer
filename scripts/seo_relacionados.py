@@ -242,8 +242,10 @@ def tarjeta(rel, titulo):
 for f, claves in RELACIONADOS.items():
     p = ROOT / f
     s = p.read_text(encoding='utf-8', errors='replace')
-    # se regenera en cada corrida: primero se quita el bloque anterior
-    s = re.sub(r'\n\s*<section id="articulos-relacionados".*?</section>\n', '\n',
+    # se regenera en cada corrida: primero se quita el bloque anterior. El bloque
+    # trae su propio \n inicial y final: reemplazar por '' para no sumar una
+    # linea en blanco en cada corrida
+    s = re.sub(r'\n\s*<section id="articulos-relacionados".*?</section>\n', '',
                s, flags=re.S)
     elegidos = []
     for k in claves:

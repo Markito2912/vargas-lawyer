@@ -114,7 +114,9 @@ def main() -> int:
 
         s = original = p.read_text(encoding='utf-8', errors='replace')
         # regenerable: fuera el bloque anterior
-        s = re.sub(r'\n\s*<section class="%s".*?</section>\n' % MARCA, '\n', s, flags=re.S)
+        # el bloque trae su propio \n inicial y final: reemplazar por '' (no por '\n')
+        # para no sumar una linea en blanco en cada corrida
+        s = re.sub(r'\n\s*<section class="%s".*?</section>\n' % MARCA, '', s, flags=re.S)
 
         prefijo = '../../' if rel.startswith('blog/posts/') else ''
         m = re.search(r'\n\s*<footer', s, re.I)

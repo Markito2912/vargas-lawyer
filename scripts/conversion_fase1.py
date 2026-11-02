@@ -106,6 +106,37 @@ def fix_city_schema(html, name):
     )
 
 
+OG_IMAGE = "https://vargaslawyer.com/og-vargas-lawyers.jpg"
+BASE = "https://vargaslawyer.com/"
+
+
+def fix_og_image(html):
+    # Al compartir en redes se veia solo el logo: foto real del equipo 1200x630.
+    return re.sub(r'(<meta\s+(?:property="og:image"|name="twitter:image")\s+content=")'
+                  r'https://vargaslawyer\.com/vargas-logo(?:-full)?\.png(")',
+                  rf"\g<1>{OG_IMAGE}\2", html)
+
+
+def add_breadcrumb(html, rel):
+    # Migas de pan para Google en las paginas que no las tienen.
+    if "BreadcrumbList" in html or rel == "index.html":
+        return html
+    canon = re.search(r'<link\s+rel="canonical"\s+href="([^"]+)"', html)
+    if not canon:
+        return html
+    name = h1_text(html) or re.split(r"\s[|-]\s", re.search(r"<title>(.*?)</title>", html, re.S).group(1))[0]
+    items = [("Inicio", BASE)]
+    if rel.startswith("blog/posts/") or (rel.startswith("blog-") and rel != "blog.html"):
+        items.append(("Blog", BASE + "blog.html"))
+    items.append((name.strip(), canon.group(1)))
+    data = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": i, "name": n, "item": u} for i, (n, u) in enumerate(items, 1)]}
+    tag = ('    <script type="application/ld+json">\n    '
+           + json.dumps(data, ensure_ascii=False, indent=4).replace("\n", "\n    ")
+           + "\n    </script>\n")
+    return html.replace("</head>", tag + "</head>", 1)
+
+
 CALC_CTA = ('\n                    <a href="{url}" class="btn btn-primary calc-cta" target="_blank" rel="noopener" '
             'data-cta="calculadora">¿Te despidieron? Revisamos tu liquidación por WhatsApp</a>')
 
@@ -129,6 +160,8 @@ def main():
             html = html.replace("</body>", f"    {float_block(template, msg)}\n</body>", 1)
         if STICKY_MARK not in html:
             html = html.replace("</body>", sticky_bar(msg) + "</body>", 1)
+        html = fix_og_image(html)
+        html = add_breadcrumb(html, rel)
         if path.name.startswith("abogados-en-"):
             html = fix_city_schema(html, path.name)
         if path.name == "calculadora-liquidacion.html" and "calc-cta" not in html:

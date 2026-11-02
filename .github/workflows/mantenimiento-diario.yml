@@ -1,0 +1,50 @@
+# Mantenimiento diario del sitio: cada post programado que ya llego a su fecha
+# entra al sitemap, a posts.json y a los enlaces de su servicio sin que nadie
+# tenga que correr los scripts a mano. Solo hace commit si algo cambio y si la
+# auditoria SEO pasa; ese commit dispara el deploy de Vercel.
+name: Mantenimiento diario
+
+on:
+  schedule:
+    - cron: '30 14 * * *'   # 09:30 hora Ecuador, despues de la publicacion de las 09:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mantenimiento
+  cancel-in-progress: false
+
+jobs:
+  mantenimiento:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # generate_sitemap usa la fecha del ultimo commit de cada archivo
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Scripts de mantenimiento
+        run: |
+          python scripts/reconstruir_posts_json.py
+          python scripts/generate_sitemap.py
+          python scripts/seo_relacionados.py
+          python scripts/seo_cta_posts.py
+          python scripts/conversion_fase1.py
+          python scripts/auditoria_seo.py
+
+      - name: Commit si hubo cambios
+        run: |
+          if git diff --quiet; then
+            echo "Sin cambios"
+            exit 0
+          fi
+          git config user.name "Vargas Lawyer Bot"
+          git config user.email "bot@vargaslawyer.com"
+          git add -A
+          git commit -m "chore(seo): mantenimiento diario automatico"
+          git push

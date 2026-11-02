@@ -75,6 +75,20 @@ def publicado(rel: str, agenda: dict[str, str]) -> bool:
 
 
 def file_date(path: Path) -> str:
+    # Fecha del ultimo commit que toco el archivo: en GitHub Actions el checkout
+    # deja todos los mtime en "hoy" y el lastmod mentiria. Si el archivo tiene
+    # cambios sin commitear (trabajo local), manda el mtime.
+    import subprocess
+    try:
+        sucio = subprocess.run(['git', 'status', '--porcelain', '--', str(path)], cwd=ROOT,
+                               capture_output=True, text=True, check=True).stdout.strip()
+        if not sucio:
+            fecha = subprocess.run(['git', 'log', '-1', '--format=%cs', '--', str(path)], cwd=ROOT,
+                                   capture_output=True, text=True, check=True).stdout.strip()
+            if fecha:
+                return min(fecha, TODAY)
+    except (OSError, subprocess.CalledProcessError):
+        pass
     return min(dt.date.fromtimestamp(path.stat().st_mtime).isoformat(), TODAY)
 
 
