@@ -132,6 +132,10 @@ if (contactForm) {
 
             // Abrir WhatsApp en nueva pestaña
             const whatsappUrl = `https://wa.me/593985899525?text=${encodeURIComponent(whatsappMessage)}`;
+            // Evento para GTM/GA4: el formulario no es un clic en enlace wa.me
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({ event: 'generate_lead', lead_area: areaLabel, lead_source: 'formulario' });
+
             window.open(whatsappUrl, '_blank');
 
             // Mostrar mensaje de confirmación
