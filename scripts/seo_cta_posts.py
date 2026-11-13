@@ -26,13 +26,15 @@ SERVICIOS = [
     # Paginas civiles por caso (nov 2026). Van primero porque gana la primera
     # clave: 'usucapion-prescripcion' debe caer en terrenos, no en cobro.
     ('legalizacion-terrenos-santo-domingo.html', 'Legalización de Terrenos',
-     ['usucapion']),
+     ['usucapion', 'linderos', 'servidumbre', 'terreno']),
     ('cobro-de-deudas-santo-domingo.html', 'Cobro de Deudas',
-     ['prescripcion-deudas', 'juicio-ejecutivo', 'letra-cambio', 'prestamo']),
+     ['prescripcion-deudas', 'juicio-ejecutivo', 'letra-cambio', 'prestamo',
+      'codeudor', 'protesto', 'cobrar-deuda', 'remate', 'enajenar']),
     ('herencias-posesion-efectiva-santo-domingo.html', 'Herencias y Posesión Efectiva',
-     ['herencias']),
+     ['herencias', 'herencia-', 'heredada', 'donar', 'desheredar']),
     ('contratos-arriendos-santo-domingo.html', 'Contratos y Arriendos',
-     ['contrato-arriendo', 'arrendamiento', 'incumplimiento', 'nulidad']),
+     ['contrato-arriendo', 'arrendamiento', 'incumplimiento', 'nulidad',
+      'promesa-de-compraventa', 'vicios-ocultos', 'contrato-verbal']),
     ('laboral.html', 'Derecho Laboral',
      ['despido', 'finiquito', 'horas-extra', 'vacaciones', 'acoso-laboral',
       'trabajador-domestico', 'contrato-prueba', 'jubilacion-patronal', 'decimo',
@@ -57,7 +59,9 @@ SERVICIOS = [
     ('civil.html', 'Derecho Civil',
      ['prescripcion', 'incumplimiento', 'nulidad', 'prestamo', 'dano-moral',
       'usucapion', 'compraventa', 'juicio-ejecutivo', 'letra-cambio', 'consumidor',
-      'mediacion', 'responsabilidad-medica', 'civil']),
+      'mediacion', 'responsabilidad-medica', 'civil',
+      # posts programados dic 2026 - feb 2027
+      'hipoteca', 'lesion-enorme', 'patrimonio-familiar', 'danos-causados']),
 ]
 
 FRASE = {
