@@ -120,7 +120,7 @@
                     style="display:inline-block;margin-bottom:16px;color:var(--color-primary);text-decoration:none;font-weight:500;">←
                     Volver al Blog</a>
                 <span class="section-badge">Derecho de Familia</span>
-                <h1 class="section-title" style="font-size:42px;line-height:1.2;margin-top:16px;">Tenencia y Régimen de
+                <h1 class="section-title" style="font-size:clamp(1.65rem,6vw,2.5rem);line-height:1.2;margin-top:16px;">Tenencia y Régimen de
                     Visitas en Ecuador: Cómo se Decide la Custodia</h1>
                 <div style="display:flex;gap:24px;justify-content:center;margin-top:24px;flex-wrap:wrap;color:#e2e8f0;">
                     <span><strong>Por:</strong> Ab. Anthony Vargas</span>
@@ -131,7 +131,7 @@
         </div>
     </section>
 
-    <article class="container" style="max-width:800px;padding:40px 20px 80px 20px;">
+    <article class="container post-lectura">
         <div
             style="background:linear-gradient(135deg,rgba(62,168,244,0.1),rgba(62,168,244,0.05));padding:24px;border-radius:12px;border-left:4px solid var(--color-primary);margin-bottom:40px;">
             <p style="margin:0;font-size:18px;line-height:1.6;"><strong>Lo que encontrarás aquí:</strong> Cómo decide el
@@ -139,18 +139,30 @@
                 mínimo legal, y qué hacer cuando el otro padre no cumple.</p>
         </div>
 
-        <p style="line-height:1.8;color:#e2e8f0;margin-bottom:20px;">Un padre de La Concordia llegó a consulta
+        <p>Un padre de La Concordia llegó a consulta
             convencido de que "la madre siempre se queda con los hijos". No es así. En Ecuador, el juez evalúa el
             interés superior del menor, no el género del progenitor. Este padre obtuvo la tenencia porque era quien
             había cuidado a los hijos durante los últimos dos años mientras la madre trabajaba fuera de la ciudad.</p>
 
-        <p style="line-height:1.8;color:#e2e8f0;margin-bottom:32px;">La <strong>tenencia y el régimen de visitas en
+        <p>La <strong>tenencia y el régimen de visitas en
                 Ecuador</strong> son decisiones judiciales basadas en evidencia, no en suposiciones. Entender cómo
             funciona el proceso puede marcar la diferencia en el resultado.</p>
 
-        <h2 style="color:var(--color-text);font-size:32px;margin-top:48px;margin-bottom:24px;">¿Cómo decide el juez
+        <details class="post-indice" open>
+            <summary>En este artículo</summary>
+            <ol>
+                <li><a href="#como-decide-el-juez-quien-tiene-la-tenencia">¿Cómo decide el juez quién tiene la tenencia?</a></li>
+                <li><a href="#tenencia-compartida-cuando-aplica">Tenencia compartida: cuándo aplica</a></li>
+                <li><a href="#regimen-de-visitas-el-minimo-legal">Régimen de visitas: el mínimo legal</a></li>
+                <li><a href="#que-hacer-si-el-otro-padre-no-cumple-el-regimen-de-visitas">Qué hacer si el otro padre no cumple el régimen de visitas</a></li>
+                <li><a href="#preguntas-frecuentes-sobre-tenencia-y-visitas">Preguntas frecuentes sobre tenencia y visitas</a></li>
+            </ol>
+        </details>
+        <script>if (window.innerWidth < 768) document.currentScript.previousElementSibling.removeAttribute('open');</script>
+
+        <h2 id="como-decide-el-juez-quien-tiene-la-tenencia">¿Cómo decide el juez
             quién tiene la tenencia?</h2>
-        <p style="line-height:1.8;color:#e2e8f0;margin-bottom:20px;">El principio rector es el <strong>interés superior
+        <p>El principio rector es el <strong>interés superior
                 del menor</strong>. El juez evalúa:</p>
         <div
             style="background:white;border:2px solid rgba(62,168,244,0.2);border-radius:12px;padding:32px;margin:32px 0;">
@@ -170,20 +182,20 @@
             </ul>
         </div>
 
-        <h2 style="color:var(--color-text);font-size:32px;margin-top:48px;margin-bottom:24px;">Tenencia compartida:
+        <h2 id="tenencia-compartida-cuando-aplica">Tenencia compartida:
             cuándo aplica</h2>
-        <p style="line-height:1.8;color:#e2e8f0;margin-bottom:20px;">La tenencia compartida es posible en Ecuador cuando
+        <p>La tenencia compartida es posible en Ecuador cuando
             ambos padres tienen condiciones adecuadas y viven en la misma ciudad o área. Puede estructurarse como:</p>
-        <ul style="line-height:2.2;color:#e2e8f0;margin-bottom:32px;padding-left:24px;">
+        <ul>
             <li>Semanas alternas (el esquema más común)</li>
             <li>Días de semana con un padre, fines de semana con el otro</li>
             <li>Meses alternos (menos frecuente, más para hijos mayores)</li>
         </ul>
-        <p style="line-height:1.8;color:#e2e8f0;margin-bottom:20px;">El juez puede ordenarla de oficio o a petición de
+        <p>El juez puede ordenarla de oficio o a petición de
             parte. Si los padres viven en ciudades diferentes, la tenencia compartida es prácticamente inviable y el
             juez asigna tenencia exclusiva a uno con régimen de visitas al otro.</p>
 
-        <h2 style="color:var(--color-text);font-size:32px;margin-top:48px;margin-bottom:24px;">Régimen de visitas: el
+        <h2 id="regimen-de-visitas-el-minimo-legal">Régimen de visitas: el
             mínimo legal</h2>
         <div style="background:rgba(62,168,244,0.05);border-radius:12px;padding:32px;margin:32px 0;">
             <h3 style="color:var(--color-text);margin-bottom:16px;">📅 Régimen mínimo que el juez fija si no hay acuerdo
@@ -197,16 +209,21 @@
                 <li><strong>Visitas entre semana</strong> — 1 o 2 tardes por semana (depende del juez)</li>
             </ul>
         </div>
-        <p style="line-height:1.8;color:#e2e8f0;margin-bottom:20px;">Si hay acuerdo entre los padres, el régimen puede
+        <p>Si hay acuerdo entre los padres, el régimen puede
             ser más amplio. El juez homologa el acuerdo siempre que proteja el interés del menor. Para el contexto
             completo del proceso familiar, revisa nuestra <a href="../../familia.html"
                 style="color:var(--color-primary);">página de Derecho de Familia</a>.</p>
 
-        <h2 style="color:var(--color-text);font-size:32px;margin-top:48px;margin-bottom:24px;">Qué hacer si el otro
+        <div class="post-aviso">
+            <p>¿Tu caso se parece a esto? Cuéntanoslo por WhatsApp y te decimos qué opciones tienes.</p>
+            <a href="https://wa.me/593985899525?text=Hola%2C%20le%C3%AD%20su%20gu%C3%ADa%20%C2%ABTenencia%20y%20R%C3%A9gimen%20de%20Visitas%20en%20Ecuador%3A%20C%C3%B3mo%20se%20Decide%20la%20Custodia%C2%BB%20en%20vargaslawyer.com%20y%20quiero%20consultar%20mi%20caso%3A%20" target="_blank" rel="noopener" data-cta="post-medio">Escribir por WhatsApp</a>
+        </div>
+
+        <h2 id="que-hacer-si-el-otro-padre-no-cumple-el-regimen-de-visitas">Qué hacer si el otro
             padre no cumple el régimen de visitas</h2>
-        <p style="line-height:1.8;color:#e2e8f0;margin-bottom:20px;">El incumplimiento del régimen de visitas es una
+        <p>El incumplimiento del régimen de visitas es una
             violación de una resolución judicial. Las opciones son:</p>
-        <ul style="line-height:2.2;color:#e2e8f0;margin-bottom:32px;padding-left:24px;">
+        <ul>
             <li><strong>Solicitar al juez el cumplimiento forzoso</strong> — el juez puede ordenar a la Policía que
                 garantice la entrega del menor</li>
             <li><strong>Documentar cada incumplimiento</strong> — fechas, mensajes, testigos; esto construye el
@@ -214,13 +231,13 @@
             <li><strong>Solicitar revisión de tenencia</strong> — si el incumplimiento es sistemático, puede ser causal
                 para cambiar la tenencia</li>
         </ul>
-        <p style="line-height:1.8;color:#e2e8f0;margin-bottom:20px;">Si el proceso de tenencia está vinculado a un
+        <p>Si el proceso de tenencia está vinculado a un
             divorcio, revisa nuestro artículo sobre <a href="2026-02-26-divorcio-ecuador-tiempos-costos.html"
                 style="color:var(--color-primary);">tiempos y costos del divorcio en Ecuador</a>. Y si hay pensión
             alimenticia pendiente, el artículo sobre <a href="../../blog-pension-alimenticia-ecuador.html"
                 style="color:var(--color-primary);">pensión alimenticia y apremio personal</a> es complementario.</p>
 
-        <h2 style="color:var(--color-text);font-size:32px;margin-top:48px;margin-bottom:24px;">Preguntas frecuentes
+        <h2 id="preguntas-frecuentes-sobre-tenencia-y-visitas">Preguntas frecuentes
             sobre tenencia y visitas</h2>
         <div style="display:flex;flex-direction:column;gap:16px;margin:32px 0;">
             <div
@@ -281,8 +298,7 @@
                 </svg>
             </a>
         </div>
-        <p
-            style="color:#94a3b8;font-size:13px;margin-top:40px;padding-top:20px;border-top:1px solid rgba(62,168,244,0.1);">
+        <p>
             <em>Información general con fines educativos. No constituye asesoría legal personalizada.</em></p>
     </article>
     <section class="cta-servicio" style="padding:64px 0;background:#0d1420">

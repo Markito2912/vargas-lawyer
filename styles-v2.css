@@ -1979,7 +1979,9 @@ section {
     .local-seo .local-title { font-size: 1.35rem; }
 }
 
-/* ===== Lectura de posts del blog (clase .post-lectura en <article>) ===== */
+/* ===== Lectura de posts del blog (clase .post-lectura en <article>) =====
+   Solo el texto principal: hijos directos del articulo (o de sus <section>).
+   Los recuadros, tablas, FAQ y cierres conservan sus propios estilos. */
 .post-lectura {
     max-width: 740px;
     padding: 32px 20px 72px;
@@ -1987,10 +1989,10 @@ section {
     line-height: 1.78;
     color: #e2e8f0;
 }
-.post-lectura p { margin: 0 0 1.3em; }
-.post-lectura strong { color: #ffffff; font-weight: 600; }
-.post-lectura a { color: #5cb8f7; text-decoration: underline; text-underline-offset: 3px; }
-.post-lectura h2 {
+.post-lectura > p, .post-lectura > section > p { margin: 0 0 1.3em; }
+.post-lectura > p strong, .post-lectura > section > p strong, .post-lectura > ul strong, .post-lectura > section > ul strong, .post-lectura > ol strong, .post-lectura > section > ol strong { color: #ffffff; font-weight: 600; }
+.post-lectura > p a, .post-lectura > section > p a, .post-lectura > ul a, .post-lectura > section > ul a, .post-lectura > ol a, .post-lectura > section > ol a { color: #5cb8f7; text-decoration: underline; text-underline-offset: 3px; }
+.post-lectura > h2, .post-lectura > section > h2 {
     font-size: 1.6rem;
     line-height: 1.3;
     color: #ffffff;
@@ -1999,11 +2001,10 @@ section {
     border-top: 1px solid rgba(62, 168, 244, 0.18);
     scroll-margin-top: 110px;
 }
-.post-lectura h3 { font-size: 1.22rem; line-height: 1.35; color: #3ea8f4; margin: 1.8em 0 0.6em; }
-.post-lectura ul, .post-lectura ol { margin: 0 0 1.4em; padding-left: 1.4em; }
-.post-lectura li { margin: 0 0 0.65em; padding-left: 0.3em; }
-.post-lectura ul li::marker { color: #3ea8f4; }
-.post-lectura ol li::marker { color: #3ea8f4; font-weight: 700; }
+.post-lectura > h3, .post-lectura > section > h3 { font-size: 1.22rem; line-height: 1.35; color: #3ea8f4; margin: 1.8em 0 0.6em; }
+.post-lectura > ul, .post-lectura > section > ul, .post-lectura > ol, .post-lectura > section > ol { margin: 0 0 1.4em; padding-left: 1.4em; }
+.post-lectura > ul > li, .post-lectura > section > ul > li, .post-lectura > ol > li, .post-lectura > section > ol > li { margin: 0 0 0.65em; padding-left: 0.3em; }
+.post-lectura > ul > li::marker, .post-lectura > section > ul > li::marker, .post-lectura > ol > li::marker, .post-lectura > section > ol > li::marker { color: #3ea8f4; }
 
 .post-lectura .post-resumen {
     background: #142235;
@@ -2023,6 +2024,7 @@ section {
     margin: 0 0 8px;
 }
 .post-lectura .post-resumen p { margin: 0; font-size: 1.15rem; color: #f5f7fa; }
+.post-lectura .post-resumen strong { color: #ffffff; }
 
 .post-lectura .post-indice {
     border: 1px solid #263445;
@@ -2035,8 +2037,9 @@ section {
 .post-lectura .post-indice summary::-webkit-details-marker { display: none; }
 .post-lectura .post-indice summary::after { content: " +"; }
 .post-lectura .post-indice[open] summary::after { content: " –"; }
-.post-lectura .post-indice ol { margin: 12px 0 0; padding-left: 1.3em; font-size: 1rem; }
+.post-lectura .post-indice ol { margin: 12px 0 0; padding-left: 1.3em; font-size: 1rem; line-height: 1.6; }
 .post-lectura .post-indice li { margin: 0 0 0.4em; }
+.post-lectura .post-indice li::marker { color: #3ea8f4; font-weight: 700; }
 .post-lectura .post-indice a { color: #cbd5e1; text-decoration: none; }
 .post-lectura .post-indice a:hover { color: #3ea8f4; text-decoration: underline; }
 
@@ -2052,7 +2055,7 @@ section {
     padding: 18px 22px;
     margin: 2em 0;
 }
-.post-lectura .post-aviso p { margin: 0; font-size: 1rem; color: #e2e8f0; flex: 1 1 260px; }
+.post-lectura .post-aviso p { margin: 0; font-size: 1rem; line-height: 1.6; color: #e2e8f0; flex: 1 1 260px; }
 .post-lectura .post-aviso a {
     background: #25d366;
     color: #ffffff;
@@ -2063,12 +2066,11 @@ section {
     border-radius: 24px;
     white-space: nowrap;
 }
+.post-lectura .post-faq p { margin: 0; font-size: 1.02rem; }
 @media (max-width: 768px) {
     .post-lectura { font-size: 1.06rem; line-height: 1.72; padding: 24px 18px 64px; }
-    .post-lectura h2 { font-size: 1.38rem; }
-    .post-lectura h3 { font-size: 1.12rem; }
+    .post-lectura > h2, .post-lectura > section > h2 { font-size: 1.38rem; }
+    .post-lectura > h3, .post-lectura > section > h3 { font-size: 1.12rem; }
     .post-lectura .post-resumen { padding: 16px 18px; }
     .post-lectura .post-resumen p { font-size: 1.06rem; }
 }
-.post-lectura .post-cta h2 { border-top: 0; padding-top: 0; margin-top: 0; }
-.post-lectura .post-faq p { margin: 0; font-size: 1.02rem; }

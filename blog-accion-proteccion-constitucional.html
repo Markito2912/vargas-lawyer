@@ -125,7 +125,7 @@
             <div class="section-header" style="text-align: center; max-width: 900px; margin: 0 auto;">
                 <a href="blog.html" style="color: var(--color-primary);">← Volver al Blog</a>
                 <span class="section-badge">Derecho Constitucional</span>
-                <h1 class="section-title" style="font-size: 42px; margin-top: 16px;">Acción de Protección: Qué es y
+                <h1 class="section-title" style="font-size:clamp(1.65rem,6vw,2.5rem); margin-top: 16px;">Acción de Protección: Qué es y
                     cuándo puede salvar tu negocio</h1>
                 <div
                     style="display: flex; gap: 24px; justify-content: center; margin-top: 24px; color: #e2e8f0;">
@@ -136,7 +136,7 @@
         </div>
     </section>
 
-    <article class="container" style="max-width: 800px; padding: 40px 20px 80px;">
+    <article class="container post-lectura">
         <div
             style="background: linear-gradient(135deg, rgba(62, 168, 244, 0.1) 0%, rgba(62, 168, 244, 0.05) 100%); padding: 24px; border-radius: 12px; border-left: 4px solid var(--color-primary); margin-bottom: 40px;">
             <p style="margin: 0; font-size: 18px;">
@@ -145,16 +145,27 @@
             </p>
         </div>
 
-        <h2 style="color: var(--color-text); font-size: 32px; margin-top: 48px; margin-bottom: 24px;">¿Qué es una Acción
+        <details class="post-indice" open>
+            <summary>En este artículo</summary>
+            <ol>
+                <li><a href="#que-es-una-accion-de-proteccion">¿Qué es una Acción de Protección?</a></li>
+                <li><a href="#cuando-se-puede-usar">¿Cuándo se puede usar?</a></li>
+                <li><a href="#casos-de-exito-empresarial">Casos de éxito empresarial</a></li>
+                <li><a href="#proceso-legal">Proceso legal</a></li>
+            </ol>
+        </details>
+        <script>if (window.innerWidth < 768) document.currentScript.previousElementSibling.removeAttribute('open');</script>
+
+        <h2 id="que-es-una-accion-de-proteccion">¿Qué es una Acción
             de Protección?</h2>
-        <p style="line-height: 1.8; color: #e2e8f0; margin-bottom: 20px;">
+        <p>
             La <strong>Acción de Protección</strong> es una garantía constitucional que permite defender derechos
             fundamentales cuando son violados por autoridades públicas o particulares que prestan servicios públicos.
         </p>
 
-        <h2 style="color: var(--color-text); font-size: 32px; margin-top: 48px; margin-bottom: 24px;">¿Cuándo se puede
+        <h2 id="cuando-se-puede-usar">¿Cuándo se puede
             usar?</h2>
-        <ul style="line-height: 2; color: #e2e8f0; margin-bottom: 32px; padding-left: 24px;">
+        <ul>
             <li>Cuando una autoridad pública viola tus derechos constitucionales</li>
             <li>Clausuras arbitrarias de negocios</li>
             <li>Multas desproporcionadas del Ministerio del Trabajo</li>
@@ -162,7 +173,7 @@
             <li>Actos discriminatorios de instituciones públicas</li>
         </ul>
 
-        <h2 style="color: var(--color-text); font-size: 32px; margin-top: 48px; margin-bottom: 24px;">Casos de éxito
+        <h2 id="casos-de-exito-empresarial">Casos de éxito
             empresarial</h2>
         <div style="background: rgba(62, 168, 244, 0.05); border-radius: 12px; padding: 32px; margin: 32px 0;">
             <h3 style="color: var(--color-primary);">Caso 1: Clausura arbitraria de restaurante</h3>
@@ -172,8 +183,8 @@
             </p>
         </div>
 
-        <h2 style="color: var(--color-text); font-size: 32px; margin-top: 48px; margin-bottom: 24px;">Proceso legal</h2>
-        <ol style="line-height: 2; color: #e2e8f0; margin-bottom: 32px; padding-left: 24px;">
+        <h2 id="proceso-legal">Proceso legal</h2>
+        <ol>
             <li>Presentación de la demanda (máximo 20 días desde la violación)</li>
             <li>Audiencia pública (dentro de 3 días)</li>
             <li>Sentencia (máximo 10 días después de la audiencia)</li>
