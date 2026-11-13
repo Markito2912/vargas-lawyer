@@ -23,6 +23,16 @@ MARCA = 'cta-servicio'
 
 # (pagina de servicio, etiqueta, claves de slug)
 SERVICIOS = [
+    # Paginas civiles por caso (nov 2026). Van primero porque gana la primera
+    # clave: 'usucapion-prescripcion' debe caer en terrenos, no en cobro.
+    ('legalizacion-terrenos-santo-domingo.html', 'Legalización de Terrenos',
+     ['usucapion']),
+    ('cobro-de-deudas-santo-domingo.html', 'Cobro de Deudas',
+     ['prescripcion-deudas', 'juicio-ejecutivo', 'letra-cambio', 'prestamo']),
+    ('herencias-posesion-efectiva-santo-domingo.html', 'Herencias y Posesión Efectiva',
+     ['herencias']),
+    ('contratos-arriendos-santo-domingo.html', 'Contratos y Arriendos',
+     ['contrato-arriendo', 'arrendamiento', 'incumplimiento', 'nulidad']),
     ('laboral.html', 'Derecho Laboral',
      ['despido', 'finiquito', 'horas-extra', 'vacaciones', 'acoso-laboral',
       'trabajador-domestico', 'contrato-prueba', 'jubilacion-patronal', 'decimo',
@@ -51,6 +61,10 @@ SERVICIOS = [
 ]
 
 FRASE = {
+    'legalizacion-terrenos-santo-domingo.html': 'Si tienes un terreno sin escrituras, revisamos si procede la prescripción y cómo inscribirlo.',
+    'cobro-de-deudas-santo-domingo.html': 'Si te deben dinero, revisamos tus documentos y te decimos si conviene demandar.',
+    'herencias-posesion-efectiva-santo-domingo.html': 'Si hay una herencia por resolver, te guiamos en la posesión efectiva y la partición.',
+    'contratos-arriendos-santo-domingo.html': 'Si el problema es un contrato o un arriendo, lo revisamos y te decimos qué puedes exigir.',
     'laboral.html': 'Si tu caso es laboral, revisamos tu situación y te decimos qué te corresponde.',
     'familia.html': 'Si tu caso es de familia, te acompañamos en el proceso de principio a fin.',
     'societario.html': 'Si es un tema de tu empresa, lo resolvemos con respaldo jurídico completo.',
