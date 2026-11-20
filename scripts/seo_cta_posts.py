@@ -76,7 +76,7 @@ FRASE = {
     'constitucional.html': 'Si hay derechos vulnerados, actuamos con las garantías que da la Constitución.',
     'inquilinato.html': 'Si el conflicto es de arriendo, lo resolvemos sea que arriendes o seas propietario.',
     'notarial.html': 'Si necesitas el trámite notarial, te decimos exactamente qué documentos hacen falta.',
-    'civil.html': 'Si es un conflicto civil o una deuda por cobrar, evaluamos tu caso sin costo.',
+    'civil.html': 'Si es un conflicto civil o una deuda por cobrar, revisamos tu caso y te decimos con claridad qué conviene hacer.',
 }
 
 

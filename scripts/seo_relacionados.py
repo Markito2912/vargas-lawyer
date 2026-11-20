@@ -152,7 +152,7 @@ JSONLD['calculadora-liquidacion.html'] = [
      "operatingSystem": "Web",
      "inLanguage": "es-EC",
      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
-     "description": "Calcula gratis tu liquidación por despido intempestivo o "
+     "description": "Calcula al instante tu liquidación por despido intempestivo o "
                     "desahucio según el Código del Trabajo ecuatoriano.",
      "provider": ORG},
     breadcrumb(("Inicio", BASE + "/"),
